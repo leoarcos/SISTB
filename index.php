@@ -113,81 +113,8 @@
 				logIn();
 			}
 		});
-		
-        localStorage.removeItem("user");
-		function logIn(){
-			var valIDSJONmax=0;
-			 
-			usuarios= JSON.parse(fs.readFileSync(__dirname+'/src/json/usuarios.json', 'utf-8'));
-			console.log(usuarios)
-			for(var i=0;i<usuarios.length;i++){ 
-
-				if(parseInt(usuarios[i].id_JSON)>valIDSJONmax){
-					valIDSJONmax=parseInt(usuarios[i].id_JSON);
-				}
-				if($("#user").val()==usuarios[i].user && $("#pass").val()==usuarios[i].pass){
-
-					console.log("SESSION INICIADA");
-					console.log(usuarios[i]);
-					 
-					localStorage.setItem("user", JSON.stringify(usuarios[i]));
-					
-				}
-			}
-			console.log(valIDSJONmax);
-			if(localStorage.getItem("user")){
-				window.location.assign("src/index.html");
-				self.moveTo(0,0);
-				self.resizeTo(screen.availWidth, screen.availHeight);
-			}else{
-				console.log('usuario no encontrado localmente')
-				
-				console.log('usuario :'+$("#user").val());
-				console.log('contraseña :'+$("#pass").val());
-				var dataIn={'user': $("#user").val(), 'pass':$("#pass").val(),'key':'GimmidsApp'}
-				$.post('https://saludsp.com.co/api/servicios/listarUsuario.php', { 'data': dataIn }, function(data) {
-					console.log(data);
-					data=JSON.parse(data);
-					console.log(data.DATA);
-					
-					if (data.STATUS == 'OK') {
-						//alert('usuario encontrado'); 
-						//$scope.usuarios.push(data['DATA'][0]);
-						if(data.DATA.length>0){
-							data['DATA'][0].id_JSON=valIDSJONmax+1;
-							usuarios.push(data['DATA'][0]);
-							
-							fs.writeFileSync(__dirname+'/src/json/usuarios.json', JSON.stringify(usuarios));
-
-							
-								
-							localStorage.setItem("user", JSON.stringify(data['DATA'][0]));
-							setTimeout(function(){
-									
-								window.location.assign("src/index.html");
-								self.moveTo(0,0);
-								//self.resizeTo(Width="940",Height="730");
-								self.resizeTo(screen.availWidth, screen.availHeight);
-								console.log(localStorage.getItem("user"));
-							},1500) 
-
-						}else{
-							alert('Usuario y/o contraseña mal!...');
-						}
-
-
-
-					}else{
-						
-						alert('Eror al conectar con servidor!');
-					}
-				}).fail(function(data) {
-					console.log(data);
-					alert("error: " + data.responseText);
-				}, "JSON");
-					 
-
-			}
+		 
+		function logIn(){ 
 
 		}
 	</script>
