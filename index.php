@@ -2,18 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Login</title>
+    <title>SISTB - Inicio de sesión</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-	<script>
-		console.log("Bienvenido a GIMMIDS");
-			if (typeof module === 'object') {
-				window.module = module; 
-				module = undefined;
-			}
-
-	</script>
+ 
     <!-- Bootstrap core CSS -->
 	
 	
