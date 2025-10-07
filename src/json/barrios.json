@@ -1,0 +1,1478 @@
+[
+ {
+  "barrio": "13 de Marzo"
+ },
+ {
+  "barrio": "23 de Enero"
+ },
+ {
+  "barrio": "28 de Febrero"
+ },
+ {
+  "barrio": "7 de Agosto"
+ },
+ {
+  "barrio": "Acuarela"
+ },
+ {
+  "barrio": "Aeropuerto"
+ },
+ {
+  "barrio": "Aguas Calientes"
+ },
+ {
+  "barrio": "Alameda del Este"
+ },
+ {
+  "barrio": "Alcalá"
+ },
+ {
+  "barrio": "Alfonso Lopez"
+ },
+ {
+  "barrio": "Alonsito"
+ },
+ {
+  "barrio": "Altavista"
+ },
+ {
+  "barrio": "Alto Pamplonita"
+ },
+ {
+  "barrio": "Aniversario I"
+ },
+ {
+  "barrio": "Aniversario II"
+ },
+ {
+  "barrio": "Antonia Santos"
+ },
+ {
+  "barrio": "Arnulfo Briceño"
+ },
+ {
+  "barrio": "Asent. H. 6 de Reyes"
+ },
+ {
+  "barrio": "Asent. H. Alfonso Gomez"
+ },
+ {
+  "barrio": "Asent. H. Brisas del Sol"
+ },
+ {
+  "barrio": "Asent. H. Brisas, Paz y Futuro "
+ },
+ {
+  "barrio": "Asent. H. Campo Alegre"
+ },
+ {
+  "barrio": "Asent. H. Cerro Pastel"
+ },
+ {
+  "barrio": "Asent. H. Colombia I"
+ },
+ {
+  "barrio": "Asent. H. Espiritu Santo"
+ },
+ {
+  "barrio": "Asent. H. Francisco Primero"
+ },
+ {
+  "barrio": "Asent. H. Guadalupe"
+ },
+ {
+  "barrio": "Asent. H. Hibiscos"
+ },
+ {
+  "barrio": "Asent. H. Jerónimo Uribe"
+ },
+ {
+  "barrio": "Asent. H. José Bernal"
+ },
+ {
+  "barrio": "Asent. H. La Fe"
+ },
+ {
+  "barrio": "Asent. H. Los Canarios"
+ },
+ {
+  "barrio": "Asent. H. Los Mangos"
+ },
+ {
+  "barrio": "Asent. H. María Gracia "
+ },
+ {
+  "barrio": "Asent. H. Torremolinos"
+ },
+ {
+  "barrio": "Asent. H. Valles de Jerusalén"
+ },
+ {
+  "barrio": "Asent. H. Villa Nueva"
+ },
+ {
+  "barrio": "Asent. H. Villa Paz"
+ },
+ {
+  "barrio": "Asent. H. Villas de Guadalupe"
+ },
+ {
+  "barrio": "Atalaya I Etapa"
+ },
+ {
+  "barrio": "Atalaya II Etapa"
+ },
+ {
+  "barrio": "Barrio Blanco"
+ },
+ {
+  "barrio": "Barrio Nuevo"
+ },
+ {
+  "barrio": "Belén"
+ },
+ {
+  "barrio": "Belisario Betancourt"
+ },
+ {
+  "barrio": "Bellavista cuc"
+ },
+ {
+  "barrio": "Bethel"
+ },
+ {
+  "barrio": "Bogotá"
+ },
+ {
+  "barrio": "Bosques de Pamplonita"
+ },
+ {
+  "barrio": "Bosques de Santa Barbara"
+ },
+ {
+  "barrio": "Brisas de los Andes"
+ },
+ {
+  "barrio": "Brisas del Aeropuerto"
+ },
+ {
+  "barrio": "Brisas del Mirador"
+ },
+ {
+  "barrio": "Brisas del Norte"
+ },
+ {
+  "barrio": "Brisas del Pamplonita"
+ },
+ {
+  "barrio": "Brisas del Paraiso"
+ },
+ {
+  "barrio": "Brisas del Porvenir"
+ },
+ {
+  "barrio": "Brisas del Sinai"
+ },
+ {
+  "barrio": "Buenos Aires"
+ },
+ {
+  "barrio": "Callejón"
+ },
+ {
+  "barrio": "Camilo Daza"
+ },
+ {
+  "barrio": "Camilo Torres"
+ },
+ {
+  "barrio": "Campo Solo"
+ },
+ {
+  "barrio": "Cañas Fístolo"
+ },
+ {
+  "barrio": "Cañavera"
+ },
+ {
+  "barrio": "Caño Limón"
+ },
+ {
+  "barrio": "Carlos Garcia Lozada"
+ },
+ {
+  "barrio": "Carlos Pizarro"
+ },
+ {
+  "barrio": "Carlos Ramírez París"
+ },
+ {
+  "barrio": "Carora"
+ },
+ {
+  "barrio": "CASD"
+ },
+ {
+  "barrio": "Cecilia Castro"
+ },
+ {
+  "barrio": "Ceiba II"
+ },
+ {
+  "barrio": "Cementerio Los Olivos"
+ },
+ {
+  "barrio": "Cenabastos"
+ },
+ {
+  "barrio": "Cerro La Cruz"
+ },
+ {
+  "barrio": "Cerro Norte"
+ },
+ {
+  "barrio": "Cerro Pico"
+ },
+ {
+  "barrio": "Chapinero"
+ },
+ {
+  "barrio": "Chiveras"
+ },
+ {
+  "barrio": "Circunvalación"
+ },
+ {
+  "barrio": "Ciudad Jardín"
+ },
+ {
+  "barrio": "Ciudad Rodeo"
+ },
+ {
+  "barrio": "Ciudadela El Progreso"
+ },
+ {
+  "barrio": "Club Tenis"
+ },
+ {
+  "barrio": "Coca-Cola"
+ },
+ {
+  "barrio": "Colina"
+ },
+ {
+  "barrio": "Colinas de Belén"
+ },
+ {
+  "barrio": "Colinas de la Victoria"
+ },
+ {
+  "barrio": "Colinas del Salado"
+ },
+ {
+  "barrio": "Colinas del Tunal"
+ },
+ {
+  "barrio": "Colsag"
+ },
+ {
+  "barrio": "Comercial Bolívar"
+ },
+ {
+  "barrio": "Comuneros"
+ },
+ {
+  "barrio": "Condado de Castilla"
+ },
+ {
+  "barrio": "Conj. Cerrado Portal del Boconó"
+ },
+ {
+  "barrio": "Conj. Cerrado Villa Elisa"
+ },
+ {
+  "barrio": "Conj. Villas del Rodeo"
+ },
+ {
+  "barrio": "Corregimiento Carmen de Tonchalá"
+ },
+ {
+  "barrio": "Crispin Durán"
+ },
+ {
+  "barrio": "Cuarta Etapa"
+ },
+ {
+  "barrio": "Cuarteles"
+ },
+ {
+  "barrio": "Cuberos Niño"
+ },
+ {
+  "barrio": "Cúcuta 75"
+ },
+ {
+  "barrio": "Cumbres del Norte"
+ },
+ {
+  "barrio": "Cundinamarca"
+ },
+ {
+  "barrio": "Divina Pastora"
+ },
+ {
+  "barrio": "Divino Niño"
+ },
+ {
+  "barrio": "Doña Nidia"
+ },
+ {
+  "barrio": "El Bosque"
+ },
+ {
+  "barrio": "El Centro"
+ },
+ {
+  "barrio": "El Claret"
+ },
+ {
+  "barrio": "El Contento"
+ },
+ {
+  "barrio": "El Desierto"
+ },
+ {
+  "barrio": "El Dorado"
+ },
+ {
+  "barrio": "El Escobal"
+ },
+ {
+  "barrio": "El Higuerón"
+ },
+ {
+  "barrio": "El Lago"
+ },
+ {
+  "barrio": "El Llano"
+ },
+ {
+  "barrio": "El Oasis"
+ },
+ {
+  "barrio": "El Portal del Escobal"
+ },
+ {
+  "barrio": "El Portico"
+ },
+ {
+  "barrio": "El Páramo"
+ },
+ {
+  "barrio": "El Progreso I - Inv. San José de Cúcuta"
+ },
+ {
+  "barrio": "El Resumen I"
+ },
+ {
+  "barrio": "El Rodeo"
+ },
+ {
+  "barrio": "El Rosal"
+ },
+ {
+  "barrio": "El Salado"
+ },
+ {
+  "barrio": "El Talento"
+ },
+ {
+  "barrio": "El Tunal"
+ },
+ {
+  "barrio": "Escalabrini"
+ },
+ {
+  "barrio": "Estación del Este"
+ },
+ {
+  "barrio": "Florida Blanca"
+ },
+ {
+  "barrio": "Gaitán"
+ },
+ {
+  "barrio": "Galán"
+ },
+ {
+  "barrio": "García Herreros I y II"
+ },
+ {
+  "barrio": "Govica"
+ },
+ {
+  "barrio": "Gratamira"
+ },
+ {
+  "barrio": "Guaimaral"
+ },
+ {
+  "barrio": "Gualanday"
+ },
+ {
+  "barrio": "Heliópolis"
+ },
+ {
+  "barrio": "Juan Pablo II"
+ },
+ {
+  "barrio": "Juana Rangel"
+ },
+ {
+  "barrio": "Kennedy"
+ },
+ {
+  "barrio": "La Alameda"
+ },
+ {
+  "barrio": "La Aurora"
+ },
+ {
+  "barrio": "La Cabrera"
+ },
+ {
+  "barrio": "La Capillana"
+ },
+ {
+  "barrio": "La Carolina"
+ },
+ {
+  "barrio": "La Castellana"
+ },
+ {
+  "barrio": "La Ceiba"
+ },
+ {
+  "barrio": "La Ceiba I y II"
+ },
+ {
+  "barrio": "La Concordia"
+ },
+ {
+  "barrio": "La Conquista"
+ },
+ {
+  "barrio": "La Coralina"
+ },
+ {
+  "barrio": "La Esmeralda"
+ },
+ {
+  "barrio": "Boconó cuc"
+ },
+ {
+  "barrio": "La Florida"
+ },
+ {
+  "barrio": "La Fortaleza"
+ },
+ {
+  "barrio": "La Hermita"
+ },
+ {
+  "barrio": "La Ínsula"
+ },
+ {
+  "barrio": "La Isla de la Fantasía"
+ },
+ {
+  "barrio": "La Laguna"
+ },
+ {
+  "barrio": "La Libertad"
+ },
+ {
+  "barrio": "La Magdalena"
+ },
+ {
+  "barrio": "La Mar"
+ },
+ {
+  "barrio": "La Merced"
+ },
+ {
+  "barrio": "La Palestina"
+ },
+ {
+  "barrio": "La Pastora"
+ },
+ {
+  "barrio": "La Playa"
+ },
+ {
+  "barrio": "La Primavera"
+ },
+ {
+  "barrio": "La Quinta"
+ },
+ {
+  "barrio": "La Rinconada"
+ },
+ {
+  "barrio": "La Riviera"
+ },
+ {
+  "barrio": "La Sexta"
+ },
+ {
+  "barrio": "El Porvenir"
+ },
+ {
+  "barrio": "La Victoria"
+ },
+ {
+  "barrio": "Las Almeidas"
+ },
+ {
+  "barrio": "Las Américas"
+ },
+ {
+  "barrio": "Las Colinas"
+ },
+ {
+  "barrio": "Las Delicias"
+ },
+ {
+  "barrio": "Las Margaritas"
+ },
+ {
+  "barrio": "Latino"
+ },
+ {
+  "barrio": "Libertadores"
+ },
+ {
+  "barrio": "Limonar del Norte"
+ },
+ {
+  "barrio": "Linares"
+ },
+ {
+  "barrio": "Lleras Restrepo"
+ },
+ {
+  "barrio": "Loma de Bolívar"
+ },
+ {
+  "barrio": "Los Acacios"
+ },
+ {
+  "barrio": "Los Almendros"
+ },
+ {
+  "barrio": "Los Alpes"
+ },
+ {
+  "barrio": "Los Ángeles"
+ },
+ {
+  "barrio": "Los Arrayanes"
+ },
+ {
+  "barrio": "Los Caobos"
+ },
+ {
+  "barrio": "Los Girasoles"
+ },
+ {
+  "barrio": "Los Laureles"
+ },
+ {
+  "barrio": "Los Pinos"
+ },
+ {
+  "barrio": "Luis Pérez Hernández"
+ },
+ {
+  "barrio": "Manolo Lemus"
+ },
+ {
+  "barrio": "Manuela Beltran"
+ },
+ {
+  "barrio": "María Auxiliadora"
+ },
+ {
+  "barrio": "María Eugenia"
+ },
+ {
+  "barrio": "María Paz"
+ },
+ {
+  "barrio": "María Teresa"
+ },
+ {
+  "barrio": "Minuto de Dios"
+ },
+ {
+  "barrio": "Mirador Campestre"
+ },
+ {
+  "barrio": "Molinos del Norte"
+ },
+ {
+  "barrio": "Motilones"
+ },
+ {
+  "barrio": "Mujeres del Futuro"
+ },
+ {
+  "barrio": "Multifamiliar Rivera del Este"
+ },
+ {
+  "barrio": "Niña Ceci"
+ },
+ {
+  "barrio": "Niza"
+ },
+ {
+  "barrio": "Niza Zona Norte"
+ },
+ {
+  "barrio": "Nueva Esperanza"
+ },
+ {
+  "barrio": "Nueva Ilusión"
+ },
+ {
+  "barrio": "Nueva Santa Ana"
+ },
+ {
+  "barrio": "Nueva Sexta"
+ },
+ {
+  "barrio": "Nuevo Escobal"
+ },
+ {
+  "barrio": "Nuevo Horizonte"
+ },
+ {
+  "barrio": "Nuevo Milenio"
+ },
+ {
+  "barrio": "Ospina Pérez"
+ },
+ {
+  "barrio": "Panamericano"
+ },
+ {
+  "barrio": "Paraíso"
+ },
+ {
+  "barrio": "Parque de las Brisas"
+ },
+ {
+  "barrio": "Parque Real"
+ },
+ {
+  "barrio": "Parques Residenciales I y II"
+ },
+ {
+  "barrio": "Pescadero - Colpet"
+ },
+ {
+  "barrio": "Policarpa"
+ },
+ {
+  "barrio": "Popular"
+ },
+ {
+  "barrio": "Portachuelo"
+ },
+ {
+  "barrio": "Portal de Villa Camila"
+ },
+ {
+  "barrio": "Prados Club"
+ },
+ {
+  "barrio": "Prados del Este"
+ },
+ {
+  "barrio": "Prados I"
+ },
+ {
+  "barrio": "Prados II"
+ },
+ {
+  "barrio": "Prados Norte"
+ },
+ {
+  "barrio": "Pueblo Nuevo"
+ },
+ {
+  "barrio": "Puente Barco"
+ },
+ {
+  "barrio": "Punta del Este"
+ },
+ {
+  "barrio": "Quebrada Seca"
+ },
+ {
+  "barrio": "Quinta Bosch"
+ },
+ {
+  "barrio": "Quinta Oriental"
+ },
+ {
+  "barrio": "Quinta Vélez"
+ },
+ {
+  "barrio": "Rafael Nuñez"
+ },
+ {
+  "barrio": "Rincón de Los Prados"
+ },
+ {
+  "barrio": "Rincon del Rodeo"
+ },
+ {
+  "barrio": "River House"
+ },
+ {
+  "barrio": "Rosal del Norte"
+ },
+ {
+  "barrio": "Rudesino Soto"
+ },
+ {
+  "barrio": "Sabana Verde"
+ },
+ {
+  "barrio": "San Eduardo"
+ },
+ {
+  "barrio": "San Fernando del Rodeo"
+ },
+ {
+  "barrio": "San Gerardo"
+ },
+ {
+  "barrio": "San Isidro"
+ },
+ {
+  "barrio": "San Jerónimo"
+ },
+ {
+  "barrio": "San José"
+ },
+ {
+  "barrio": "San Luis"
+ },
+ {
+  "barrio": "San Martín"
+ },
+ {
+  "barrio": "San Mateo"
+ },
+ {
+  "barrio": "San Miguel"
+ },
+ {
+  "barrio": "San Rafael"
+ },
+ {
+  "barrio": "El Progreso cuc"
+ },
+ {
+  "barrio": "Santa Bárbara"
+ },
+ {
+  "barrio": "Santa Helena"
+ },
+ {
+  "barrio": "Santa Lucia"
+ },
+ {
+  "barrio": "Santa Teresita"
+ },
+ {
+  "barrio": "La Esperanza cuc"
+ },
+ {
+  "barrio": "Santo Domingo"
+ },
+ {
+  "barrio": "Sevilla"
+ },
+ {
+  "barrio": "Simón Bolívar"
+ },
+ {
+  "barrio": "The River Country"
+ },
+ {
+  "barrio": "The River Towers"
+ },
+ {
+  "barrio": "Toledo Plata"
+ },
+ {
+  "barrio": "Torcoroma"
+ },
+ {
+  "barrio": "Torcoroma II"
+ },
+ {
+  "barrio": "Siglo XXI"
+ },
+ {
+  "barrio": "Trigal del Norte"
+ },
+ {
+  "barrio": "Tucunaré"
+ },
+ {
+  "barrio": "UFPS"
+ },
+ {
+  "barrio": "Urb. Andalucia"
+ },
+ {
+  "barrio": "Urb. Aniversario"
+ },
+ {
+  "barrio": "Urb. La Gazapa"
+ },
+ {
+  "barrio": "Urb. Metropoli"
+ },
+ {
+  "barrio": "Urb. Nueva Niza"
+ },
+ {
+  "barrio": "Urb. Pleno Sol"
+ },
+ {
+  "barrio": "Urb. Rincón del Escobal"
+ },
+ {
+  "barrio": "Urb. San José"
+ },
+ {
+  "barrio": "Urb. San Martín"
+ },
+ {
+  "barrio": "Urb. San Martín II"
+ },
+ {
+  "barrio": "Urb. Santa Ines"
+ },
+ {
+  "barrio": "Urb. Santillana"
+ },
+ {
+  "barrio": "Urb. Trigal del Norte"
+ },
+ {
+  "barrio": "Urb. Villas del Escobal"
+ },
+ {
+  "barrio": "Valle Bonito"
+ },
+ {
+  "barrio": "Valle Esther"
+ },
+ {
+  "barrio": "Valles de Giron"
+ },
+ {
+  "barrio": "Valles del Rodeo"
+ },
+ {
+  "barrio": "Valparaiso Suit"
+ },
+ {
+  "barrio": "Vegas de la Florida I etapa"
+ },
+ {
+  "barrio": "Vegas del Rio"
+ },
+ {
+  "barrio": "Vereda Los Peracos"
+ },
+ {
+  "barrio": "Vereda Quebrada Seca"
+ },
+ {
+  "barrio": "Viejo Escobal"
+ },
+ {
+  "barrio": "Villa Paola"
+ },
+ {
+  "barrio": "Villas de Comfanorte"
+ },
+ {
+  "barrio": "Villas de las Américas"
+ },
+ {
+  "barrio": "San Fernando cuc"
+ },
+ {
+  "barrio": "Villas de Santorini"
+ },
+ {
+  "barrio": "Virgilio Barco"
+ },
+ {
+  "barrio": "Zona Franca"
+ },
+ {
+  "barrio": "Zona Industrial"
+ },
+ {
+  "barrio": "Zulima"
+ },
+ {
+  "barrio": "Santa Ana cuc"
+ },
+ {
+  "barrio": "Santa Clara cuc"
+ },
+ {
+  "barrio": "Santander cuc"
+ },
+ {
+  "barrio": "Tasajero cuc"
+ },
+ {
+  "barrio": "Villa Camila cuc"
+ },
+ {
+  "barrio": "Habitante de calle cuc"
+ },
+ {
+  "barrio": "Villas de San Diego cuc"
+ },
+ {
+  "barrio": "La Unión"
+ },
+ {
+  "barrio": "Cañaveral"
+ },
+ {
+  "barrio": "Conj. Cerrado Terra Viva"
+ },
+ {
+  "barrio": "Fundacion Frida Kahlo"
+ },
+ {
+  "barrio": "Conj. Cerrado Linares"
+ },
+ {
+  "barrio": "Conj. Cerrado Parques de Bolivar"
+ },
+ {
+  "barrio": "Asent. H. Colinas de Bellomonte"
+ },
+ {
+  "barrio": "Esperanza martinez"
+ },
+ {
+  "barrio": "Urb. Torre de Molinos"
+ },
+ {
+  "barrio": "Urb. Portal de las americas"
+ },
+ {
+  "barrio": "Olga Teresa"
+ },
+ {
+  "barrio": "Urb. Trigal contemporaneo"
+ },
+ {
+  "barrio": "Asent. H Los caracoles"
+ },
+ {
+  "barrio": "Urb. Cormoranes"
+ },
+ {
+  "barrio": "Asent. H. el Paraíso"
+ },
+ {
+  "barrio": "Asent. H. Colina Real"
+ },
+ {
+  "barrio": "Los Olivos"
+ },
+ {
+  "barrio": "Maria Gracia"
+ },
+ {
+  "barrio": "Palmeras parte alta"
+ },
+ {
+  "barrio": "Palmeras parte baja"
+ },
+ {
+  "barrio": "Urb. Belén de Umbria"
+ },
+ {
+  "barrio": "Corregimiento de Ricaurte"
+ },
+ {
+  "barrio": "Corregimiento Agua Clara"
+ },
+ {
+  "barrio": "Corregimiento de san faustino"
+ },
+ {
+  "barrio": "El Progreso"
+ },
+ {
+  "barrio": "Bellavista lpts"
+ },
+ {
+  "barrio": "La Esperanza lpts"
+ },
+ {
+  "barrio": "Altamira"
+ },
+ {
+  "barrio": "Altos de Vista Hermosa"
+ },
+ {
+  "barrio": "Asent. H. Balcones de la Esperanza"
+ },
+ {
+  "barrio": "Barrio Bonito"
+ },
+ {
+  "barrio": "San Fernando lpts"
+ },
+ {
+  "barrio": "Betania"
+ },
+ {
+  "barrio": "Brisas del Llano"
+ },
+ {
+  "barrio": "Cataluña"
+ },
+ {
+  "barrio": "Daniel Jordán y Minuto de Dios"
+ },
+ {
+  "barrio": "Doce de Octubre"
+ },
+ {
+  "barrio": "El Chaparral"
+ },
+ {
+  "barrio": "El Limonar"
+ },
+ {
+  "barrio": "El Mirador"
+ },
+ {
+  "barrio": "El Portal de Los Patios"
+ },
+ {
+  "barrio": "El Sol"
+ },
+ {
+  "barrio": "Iscaligua I"
+ },
+ {
+  "barrio": "Iscaligua II"
+ },
+ {
+  "barrio": "Juana Paula"
+ },
+ {
+  "barrio": "Kilometro Nueve"
+ },
+ {
+  "barrio": "Kilometro Ocho"
+ },
+ {
+  "barrio": "La Arboleda"
+ },
+ {
+  "barrio": "La Campiña"
+ },
+ {
+  "barrio": "La Cordialidad"
+ },
+ {
+  "barrio": "La Floresta"
+ },
+ {
+  "barrio": "La Sabana"
+ },
+ {
+  "barrio": "Las Cumbres"
+ },
+ {
+  "barrio": "Llanitos"
+ },
+ {
+  "barrio": "Llano Grande"
+ },
+ {
+  "barrio": "Los Colorados"
+ },
+ {
+  "barrio": "Miradores del Pamplonita"
+ },
+ {
+  "barrio": "Montebello I"
+ },
+ {
+  "barrio": "Montebello II"
+ },
+ {
+  "barrio": "Nazaret"
+ },
+ {
+  "barrio": "Once de Noviembre"
+ },
+ {
+  "barrio": "Patio Antiguo"
+ },
+ {
+  "barrio": "Patios Centro"
+ },
+ {
+  "barrio": "Pensilvania"
+ },
+ {
+  "barrio": "Pinar del rio"
+ },
+ {
+  "barrio": "Pisarreal"
+ },
+ {
+  "barrio": "San Carlos"
+ },
+ {
+  "barrio": "Santa Ana lpts"
+ },
+ {
+  "barrio": "San Francisco de Asis"
+ },
+ {
+  "barrio": "San Remo"
+ },
+ {
+  "barrio": "San Victorino"
+ },
+ {
+  "barrio": "Santa Clara lpts"
+ },
+ {
+  "barrio": "Santa Rosa de Lima"
+ },
+ {
+  "barrio": "Sinai"
+ },
+ {
+  "barrio": "Tierra Linda"
+ },
+ {
+  "barrio": "Valle de las Vegas"
+ },
+ {
+  "barrio": "Videlso"
+ },
+ {
+  "barrio": "Villa Bambi"
+ },
+ {
+  "barrio": "Villa Betania"
+ },
+ {
+  "barrio": "Villa Celina"
+ },
+ {
+  "barrio": "Villa Esperanza"
+ },
+ {
+  "barrio": "Villa Sonia"
+ },
+ {
+  "barrio": "Villa Verde"
+ },
+ {
+  "barrio": "Valles del Mirador"
+ },
+ {
+  "barrio": "Tasajero lpts"
+ },
+ {
+  "barrio": "Villa Camila lpts"
+ },
+ {
+  "barrio": "Habitante de calle lpts"
+ },
+ {
+  "barrio": "Villas de San Diego lpts"
+ },
+ {
+  "barrio": "CCC - Los Patios"
+ },
+ {
+  "barrio": "El Mirador parte alta"
+ },
+ {
+  "barrio": "El Mirador parte baja"
+ },
+ {
+  "barrio": "Barrió El bosque"
+ },
+ {
+  "barrio": "Barrió El Porvenir"
+ },
+ {
+  "barrio": "Barrió 23 de abril"
+ },
+ {
+  "barrio": "Barrió el Carmen"
+ },
+ {
+  "barrio": "Barrió Nuevo"
+ },
+ {
+  "barrio": "Barrió El Centro"
+ },
+ {
+  "barrio": "Barrió La Piragua"
+ },
+ {
+  "barrio": "Barrió Beltrania"
+ },
+ {
+  "barrio": "Barrió la Punta"
+ },
+ {
+  "barrio": "Barrió La Unión"
+ },
+ {
+  "barrio": "Bellavista villa"
+ },
+ {
+  "barrio": "El Paramo"
+ },
+ {
+  "barrio": "Boconó villa"
+ },
+ {
+  "barrio": "El Progreso villa"
+ },
+ {
+  "barrio": "La Esperanza villa"
+ },
+ {
+  "barrio": "Santander villa"
+ },
+ {
+  "barrio": "20 de Julio"
+ },
+ {
+  "barrio": "Altos del Tamarindo"
+ },
+ {
+  "barrio": "Antonio Nariño"
+ },
+ {
+  "barrio": "Antonio Navarro Wolf"
+ },
+ {
+  "barrio": "Centro"
+ },
+ {
+  "barrio": "El Morichal"
+ },
+ {
+  "barrio": "Fatima"
+ },
+ {
+  "barrio": "Gramalote"
+ },
+ {
+  "barrio": "Gran Colombia"
+ },
+ {
+  "barrio": "La Esperanza Alta"
+ },
+ {
+  "barrio": "La Esperanza Baja"
+ },
+ {
+  "barrio": "La Palmita"
+ },
+ {
+  "barrio": "La Parada"
+ },
+ {
+  "barrio": "La Parada Sector Rural"
+ },
+ {
+  "barrio": "Lomitas"
+ },
+ {
+  "barrio": "Los Limites"
+ },
+ {
+  "barrio": "Montevideo I"
+ },
+ {
+  "barrio": "Montevideo II"
+ },
+ {
+  "barrio": "Morelli"
+ },
+ {
+  "barrio": "Piedecuesta"
+ },
+ {
+  "barrio": "Primero de Mayo"
+ },
+ {
+  "barrio": "San Gregorio"
+ },
+ {
+  "barrio": "San Jose"
+ },
+ {
+  "barrio": "San Judas Tadeo"
+ },
+ {
+  "barrio": "San Martin"
+ },
+ {
+  "barrio": "Santa Barbara"
+ },
+ {
+  "barrio": "Senderos de Paz"
+ },
+ {
+  "barrio": "Turbay Ayala"
+ },
+ {
+  "barrio": "Urb. Altos del Rosario"
+ },
+ {
+  "barrio": "Urb. Bello Monte"
+ },
+ {
+  "barrio": "Urb. Buenavista II"
+ },
+ {
+  "barrio": "Urb. Campo Verde"
+ },
+ {
+  "barrio": "Urb. El Cuji"
+ },
+ {
+  "barrio": "Urb. El Portal de los Alcazares"
+ },
+ {
+  "barrio": "Urb. La Pradera"
+ },
+ {
+  "barrio": "Urb. Las Margaritas"
+ },
+ {
+  "barrio": "Urb. Los Cerezos"
+ },
+ {
+  "barrio": "Urb. Los Ciruelos"
+ },
+ {
+  "barrio": "Urb. Los Mangos"
+ },
+ {
+  "barrio": "Urb. Los Trapiches"
+ },
+ {
+  "barrio": "Urb. Monaco"
+ },
+ {
+  "barrio": "Urb. Pueblito Español"
+ },
+ {
+  "barrio": "Urb. Quintas del Tamarindo"
+ },
+ {
+  "barrio": "Urb. Santa Maria del Rosario"
+ },
+ {
+  "barrio": "Urb. Santa Mónica"
+ },
+ {
+  "barrio": "Urb. Serranova"
+ },
+ {
+  "barrio": "Urb. Tamarindos Club"
+ },
+ {
+  "barrio": "Urb. Villa Eugenio"
+ },
+ {
+  "barrio": "Urb. Villa Graciela"
+ },
+ {
+  "barrio": "Urb. Villa Hermosa"
+ },
+ {
+  "barrio": "Urb. Villas de la Gran Colombia"
+ },
+ {
+  "barrio": "Urb. Villas de Santander"
+ },
+ {
+  "barrio": "Urb. Villas de Sevilla"
+ },
+ {
+  "barrio": "Urb. Vista Hermosa"
+ },
+ {
+  "barrio": "Urb. Yerbabuena"
+ },
+ {
+  "barrio": "Vereda El Palmar"
+ },
+ {
+  "barrio": "Vereda Galan"
+ },
+ {
+  "barrio": "Vereda Juan Frio"
+ },
+ {
+  "barrio": "Vereda La Uchema"
+ },
+ {
+  "barrio": "Vereda Palo Gordo Norte"
+ },
+ {
+  "barrio": "Vereda Palo Gordo Sur"
+ },
+ {
+  "barrio": "Villa Antigua"
+ },
+ {
+  "barrio": "Habitante de calle villa"
+ },
+ {
+  "barrio": "CAM Las Margaritas"
+ },
+ {
+  "barrio": "CCC - Caobos"
+ },
+ {
+  "barrio": "Comisaria de Familia de Villa de Rosario"
+ }
+]

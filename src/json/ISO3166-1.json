@@ -1,0 +1,978 @@
+[
+ {
+   "COD": "AFG",
+   "PAIS": "Afganistan"
+ },
+ {
+   "COD": "ALA",
+   "PAIS": "Aland"
+ },
+ {
+   "COD": "ALB",
+   "PAIS": "Albania"
+ },
+ {
+   "COD": "DEU",
+   "PAIS": "Alemania"
+ },
+ {
+   "COD": "AND",
+   "PAIS": "Andorra"
+ },
+ {
+   "COD": "AGO",
+   "PAIS": "Angola"
+ },
+ {
+   "COD": "AIA",
+   "PAIS": "Anguila"
+ },
+ {
+   "COD": "ATA",
+   "PAIS": "Antartida"
+ },
+ {
+   "COD": "ATG",
+   "PAIS": "Antigua y Barbuda"
+ },
+ {
+   "COD": "ANT",
+   "PAIS": "Antillas Neerlandesas"
+ },
+ {
+   "COD": "SAU",
+   "PAIS": "Arabia Saudita"
+ },
+ {
+   "COD": "DZA",
+   "PAIS": "Argelia"
+ },
+ {
+   "COD": "ARG",
+   "PAIS": "Argentina"
+ },
+ {
+   "COD": "ARM",
+   "PAIS": "Armenia"
+ },
+ {
+   "COD": "ABW",
+   "PAIS": "Aruba"
+ },
+ {
+   "COD": "AUS",
+   "PAIS": "Australia"
+ },
+ {
+   "COD": "AUT",
+   "PAIS": "Austria"
+ },
+ {
+   "COD": "AZE",
+   "PAIS": "Azerbaiyan"
+ },
+ {
+   "COD": "BHS",
+   "PAIS": "Bahamas"
+ },
+ {
+   "COD": "BHR",
+   "PAIS": "Bahrein"
+ },
+ {
+   "COD": "BGD",
+   "PAIS": "Bangladesh"
+ },
+ {
+   "COD": "BRB",
+   "PAIS": "Barbados"
+ },
+ {
+   "COD": "BLR",
+   "PAIS": "Bielorrusia"
+ },
+ {
+   "COD": "BEL",
+   "PAIS": "Belgica"
+ },
+ {
+   "COD": "BLZ",
+   "PAIS": "Belice"
+ },
+ {
+   "COD": "BEN",
+   "PAIS": "Benin"
+ },
+ {
+   "COD": "BMU",
+   "PAIS": "Bermudas"
+ },
+ {
+   "COD": "BTN",
+   "PAIS": "Butan"
+ },
+ {
+   "COD": "BOL",
+   "PAIS": "Bolivia"
+ },
+ {
+   "COD": "BIH",
+   "PAIS": "Bosnia y Herzegovina"
+ },
+ {
+   "COD": "BWA",
+   "PAIS": "Botsuana"
+ },
+ {
+   "COD": "BVT",
+   "PAIS": "Isla Bouvet"
+ },
+ {
+   "COD": "BRA",
+   "PAIS": "Brasil"
+ },
+ {
+   "COD": "BRN",
+   "PAIS": "Brunei"
+ },
+ {
+   "COD": "BGR",
+   "PAIS": "Bulgaria"
+ },
+ {
+   "COD": "BFA",
+   "PAIS": "Burkina Faso"
+ },
+ {
+   "COD": "BDI",
+   "PAIS": "Burundi"
+ },
+ {
+   "COD": "CPV",
+   "PAIS": "Cabo Verde"
+ },
+ {
+   "COD": "CYM",
+   "PAIS": "Islas Caiman"
+ },
+ {
+   "COD": "KHM",
+   "PAIS": "Camboya"
+ },
+ {
+   "COD": "CMR",
+   "PAIS": "Camerun"
+ },
+ {
+   "COD": "CAN",
+   "PAIS": "Canada"
+ },
+ {
+   "COD": "CAF",
+   "PAIS": "Republica Centroafricana"
+ },
+ {
+   "COD": "TCD",
+   "PAIS": "Chad"
+ },
+ {
+   "COD": "CZE",
+   "PAIS": "Republica Checa"
+ },
+ {
+   "COD": "CHL",
+   "PAIS": "Chile"
+ },
+ {
+   "COD": "CHN",
+   "PAIS": "China"
+ },
+ {
+   "COD": "CYP",
+   "PAIS": "Chipre"
+ },
+ {
+   "COD": "CCK",
+   "PAIS": "Islas Cocos"
+ },
+ {
+   "COD": "COL",
+   "PAIS": "Colombia"
+ },
+ {
+   "COD": "COM",
+   "PAIS": "Comoras"
+ },
+ {
+   "COD": "COG",
+   "PAIS": "Republica del Congo"
+ },
+ {
+   "COD": "COD",
+   "PAIS": "Republica Democratica del Cong"
+ },
+ {
+   "COD": "COK",
+   "PAIS": "Islas Cook"
+ },
+ {
+   "COD": "PRK",
+   "PAIS": "Corea del Norte"
+ },
+ {
+   "COD": "KOR",
+   "PAIS": "Corea del Sur"
+ },
+ {
+   "COD": "CIV",
+   "PAIS": "Costa de Marfil"
+ },
+ {
+   "COD": "CRI",
+   "PAIS": "Costa Rica"
+ },
+ {
+   "COD": "HRV",
+   "PAIS": "Croacia"
+ },
+ {
+   "COD": "CUB",
+   "PAIS": "Cuba"
+ },
+ {
+   "COD": "DNK",
+   "PAIS": "Dinamarca"
+ },
+ {
+   "COD": "DMA",
+   "PAIS": "Dominica"
+ },
+ {
+   "COD": "DOM",
+   "PAIS": "Republica Dominicana"
+ },
+ {
+   "COD": "ECU",
+   "PAIS": "Ecuador"
+ },
+ {
+   "COD": "EGY",
+   "PAIS": "Egipto"
+ },
+ {
+   "COD": "SLV",
+   "PAIS": "El Salvador"
+ },
+ {
+   "COD": "ARE",
+   "PAIS": "Emiratos arabes Unidos"
+ },
+ {
+   "COD": "ERI",
+   "PAIS": "Eritrea"
+ },
+ {
+   "COD": "SVK",
+   "PAIS": "Eslovaquia"
+ },
+ {
+   "COD": "SVN",
+   "PAIS": "Eslovenia"
+ },
+ {
+   "COD": "ESP",
+   "PAIS": "Espana"
+ },
+ {
+   "COD": "USA",
+   "PAIS": "Estados Unidos"
+ },
+ {
+   "COD": "UMI",
+   "PAIS": "Islas ultramarinas de Estados"
+ },
+ {
+   "COD": "EST",
+   "PAIS": "Estonia"
+ },
+ {
+   "COD": "ETH",
+   "PAIS": "Etiopia"
+ },
+ {
+   "COD": "FRO",
+   "PAIS": "Islas Feroe"
+ },
+ {
+   "COD": "PHL",
+   "PAIS": "Filipinas"
+ },
+ {
+   "COD": "FIN",
+   "PAIS": "Finlandia"
+ },
+ {
+   "COD": "FJI",
+   "PAIS": "Fiyi"
+ },
+ {
+   "COD": "FRA",
+   "PAIS": "Francia"
+ },
+ {
+   "COD": "GAB",
+   "PAIS": "Gabon"
+ },
+ {
+   "COD": "GMB",
+   "PAIS": "Gambia"
+ },
+ {
+   "COD": "GEO",
+   "PAIS": "Georgia"
+ },
+ {
+   "COD": "SGS",
+   "PAIS": "Islas Georgias del Sur y Sandw"
+ },
+ {
+   "COD": "GHA",
+   "PAIS": "Ghana"
+ },
+ {
+   "COD": "GIB",
+   "PAIS": "Gibraltar"
+ },
+ {
+   "COD": "GRD",
+   "PAIS": "Granada"
+ },
+ {
+   "COD": "GRC",
+   "PAIS": "Grecia"
+ },
+ {
+   "COD": "GRL",
+   "PAIS": "Groenlandia"
+ },
+ {
+   "COD": "GLP",
+   "PAIS": "Guadalupe"
+ },
+ {
+   "COD": "GUM",
+   "PAIS": "Guam"
+ },
+ {
+   "COD": "GTM",
+   "PAIS": "Guatemala"
+ },
+ {
+   "COD": "GUF",
+   "PAIS": "Guayana Francesa"
+ },
+ {
+   "COD": "GGY",
+   "PAIS": "Guernsey"
+ },
+ {
+   "COD": "GIN",
+   "PAIS": "Guinea"
+ },
+ {
+   "COD": "GNQ",
+   "PAIS": "Guinea Ecuatorial"
+ },
+ {
+   "COD": "GNB",
+   "PAIS": "Guinea-Bissau"
+ },
+ {
+   "COD": "GUY",
+   "PAIS": "Guyana"
+ },
+ {
+   "COD": "HTI",
+   "PAIS": "Haiti"
+ },
+ {
+   "COD": "HMD",
+   "PAIS": "Islas Heard y McDonald"
+ },
+ {
+   "COD": "HND",
+   "PAIS": "Honduras"
+ },
+ {
+   "COD": "HKG",
+   "PAIS": "Hong Kong"
+ },
+ {
+   "COD": "HUN",
+   "PAIS": "Hungria"
+ },
+ {
+   "COD": "IND",
+   "PAIS": "India"
+ },
+ {
+   "COD": "IDN",
+   "PAIS": "Indonesia"
+ },
+ {
+   "COD": "IRN",
+   "PAIS": "Iran"
+ },
+ {
+   "COD": "IRQ",
+   "PAIS": "Iraq"
+ },
+ {
+   "COD": "IRL",
+   "PAIS": "Irlanda"
+ },
+ {
+   "COD": "ISL",
+   "PAIS": "Islandia"
+ },
+ {
+   "COD": "ISR",
+   "PAIS": "Israel"
+ },
+ {
+   "COD": "ITA",
+   "PAIS": "Italia"
+ },
+ {
+   "COD": "JAM",
+   "PAIS": "Jamaica"
+ },
+ {
+   "COD": "JPN",
+   "PAIS": "Japon"
+ },
+ {
+   "COD": "JEY",
+   "PAIS": "Jersey"
+ },
+ {
+   "COD": "JOR",
+   "PAIS": "Jordania"
+ },
+ {
+   "COD": "KAZ",
+   "PAIS": "Kazajistan"
+ },
+ {
+   "COD": "KEN",
+   "PAIS": "Kenia"
+ },
+ {
+   "COD": "KGZ",
+   "PAIS": "Kirguistan"
+ },
+ {
+   "COD": "KIR",
+   "PAIS": "Kiribati"
+ },
+ {
+   "COD": "KWT",
+   "PAIS": "Kuwait"
+ },
+ {
+   "COD": "LAO",
+   "PAIS": "Laos"
+ },
+ {
+   "COD": "LSO",
+   "PAIS": "Lesoto"
+ },
+ {
+   "COD": "LVA",
+   "PAIS": "Letonia"
+ },
+ {
+   "COD": "LBN",
+   "PAIS": "Libano"
+ },
+ {
+   "COD": "LBR",
+   "PAIS": "Liberia"
+ },
+ {
+   "COD": "LBY",
+   "PAIS": "Libia"
+ },
+ {
+   "COD": "LIE",
+   "PAIS": "Liechtenstein"
+ },
+ {
+   "COD": "LTU",
+   "PAIS": "Lituania"
+ },
+ {
+   "COD": "LUX",
+   "PAIS": "Luxemburgo"
+ },
+ {
+   "COD": "MAC",
+   "PAIS": "Macao"
+ },
+ {
+   "COD": "MKD",
+   "PAIS": "ARY Macedonia"
+ },
+ {
+   "COD": "MDG",
+   "PAIS": "Madagascar"
+ },
+ {
+   "COD": "MYS",
+   "PAIS": "Malasia"
+ },
+ {
+   "COD": "MWI",
+   "PAIS": "Malawi"
+ },
+ {
+   "COD": "MDV",
+   "PAIS": "Maldivas"
+ },
+ {
+   "COD": "MLI",
+   "PAIS": "Mali"
+ },
+ {
+   "COD": "MLT",
+   "PAIS": "Malta"
+ },
+ {
+   "COD": "FLK",
+   "PAIS": "Islas Malvinas"
+ },
+ {
+   "COD": "IMN",
+   "PAIS": "Isla de Man"
+ },
+ {
+   "COD": "MNP",
+   "PAIS": "Islas Marianas del Norte"
+ },
+ {
+   "COD": "MAR",
+   "PAIS": "Marruecos"
+ },
+ {
+   "COD": "MHL",
+   "PAIS": "Islas Marshall"
+ },
+ {
+   "COD": "MTQ",
+   "PAIS": "Martinica"
+ },
+ {
+   "COD": "MUS",
+   "PAIS": "Mauricio"
+ },
+ {
+   "COD": "MRT",
+   "PAIS": "Mauritania"
+ },
+ {
+   "COD": "MYT",
+   "PAIS": "Mayotte"
+ },
+ {
+   "COD": "MEX",
+   "PAIS": "Mexico"
+ },
+ {
+   "COD": "FSM",
+   "PAIS": "Micronesia"
+ },
+ {
+   "COD": "MDA",
+   "PAIS": "Moldavia"
+ },
+ {
+   "COD": "MCO",
+   "PAIS": "Monaco"
+ },
+ {
+   "COD": "MNG",
+   "PAIS": "Mongolia"
+ },
+ {
+   "COD": "MNE",
+   "PAIS": "Montenegro"
+ },
+ {
+   "COD": "MSR",
+   "PAIS": "Montserrat"
+ },
+ {
+   "COD": "MOZ",
+   "PAIS": "Mozambique"
+ },
+ {
+   "COD": "MMR",
+   "PAIS": "Myanmar"
+ },
+ {
+   "COD": "NAM",
+   "PAIS": "Namibia"
+ },
+ {
+   "COD": "NRU",
+   "PAIS": "Nauru"
+ },
+ {
+   "COD": "CXR",
+   "PAIS": "Isla de Navidad"
+ },
+ {
+   "COD": "NPL",
+   "PAIS": "Nepal"
+ },
+ {
+   "COD": "NIC",
+   "PAIS": "Nicaragua"
+ },
+ {
+   "COD": "NER",
+   "PAIS": "Niger"
+ },
+ {
+   "COD": "NGA",
+   "PAIS": "Nigeria"
+ },
+ {
+   "COD": "NIU",
+   "PAIS": "Niue"
+ },
+ {
+   "COD": "NFK",
+   "PAIS": "Norfolk"
+ },
+ {
+   "COD": "NOR",
+   "PAIS": "Noruega"
+ },
+ {
+   "COD": "NCL",
+   "PAIS": "Nueva Caledonia"
+ },
+ {
+   "COD": "NZL",
+   "PAIS": "Nueva Zelanda"
+ },
+ {
+   "COD": "OMN",
+   "PAIS": "Oman"
+ },
+ {
+   "COD": "NLD",
+   "PAIS": "Paises Bajos"
+ },
+ {
+   "COD": "PAK",
+   "PAIS": "Pakistan"
+ },
+ {
+   "COD": "PLW",
+   "PAIS": "Palaos"
+ },
+ {
+   "COD": "PSE",
+   "PAIS": "Palestina (ANP)"
+ },
+ {
+   "COD": "PAN",
+   "PAIS": "Panama"
+ },
+ {
+   "COD": "PNG",
+   "PAIS": "Papua Nueva Guinea"
+ },
+ {
+   "COD": "PRY",
+   "PAIS": "Paraguay"
+ },
+ {
+   "COD": "PER",
+   "PAIS": "Peru"
+ },
+ {
+   "COD": "PCN",
+   "PAIS": "Islas Pitcairn"
+ },
+ {
+   "COD": "PYF",
+   "PAIS": "Polinesia Francesa"
+ },
+ {
+   "COD": "POL",
+   "PAIS": "Polonia"
+ },
+ {
+   "COD": "PRT",
+   "PAIS": "Portugal"
+ },
+ {
+   "COD": "PRI",
+   "PAIS": "Puerto Rico"
+ },
+ {
+   "COD": "QAT",
+   "PAIS": "Qatar"
+ },
+ {
+   "COD": "GBR",
+   "PAIS": "Reino Unido"
+ },
+ {
+   "COD": "REU",
+   "PAIS": "Reunion"
+ },
+ {
+   "COD": "RWA",
+   "PAIS": "Ruanda"
+ },
+ {
+   "COD": "ROU",
+   "PAIS": "Rumania"
+ },
+ {
+   "COD": "RUS",
+   "PAIS": "Rusia"
+ },
+ {
+   "COD": "ESH",
+   "PAIS": "Sahara Occidental"
+ },
+ {
+   "COD": "SLB",
+   "PAIS": "Islas Salomon"
+ },
+ {
+   "COD": "WSM",
+   "PAIS": "Samoa"
+ },
+ {
+   "COD": "ASM",
+   "PAIS": "Samoa Americana"
+ },
+ {
+   "COD": "KNA",
+   "PAIS": "San Cristobal y Nieves"
+ },
+ {
+   "COD": "SMR",
+   "PAIS": "San Marino"
+ },
+ {
+   "COD": "SPM",
+   "PAIS": "San Pedro y Miquelon"
+ },
+ {
+   "COD": "VCT",
+   "PAIS": "San Vicente y las Granadinas"
+ },
+ {
+   "COD": "SHN",
+   "PAIS": "Santa Helena"
+ },
+ {
+   "COD": "LCA",
+   "PAIS": "Santa Lucia"
+ },
+ {
+   "COD": "STP",
+   "PAIS": "Santo Tome y Principe"
+ },
+ {
+   "COD": "SEN",
+   "PAIS": "Senegal"
+ },
+ {
+   "COD": "SRB",
+   "PAIS": "Serbia"
+ },
+ {
+   "COD": "SYC",
+   "PAIS": "Seychelles"
+ },
+ {
+   "COD": "SLE",
+   "PAIS": "Sierra Leona"
+ },
+ {
+   "COD": "SGP",
+   "PAIS": "Singapur"
+ },
+ {
+   "COD": "SYR",
+   "PAIS": "Siria"
+ },
+ {
+   "COD": "SOM",
+   "PAIS": "Somalia"
+ },
+ {
+   "COD": "LKA",
+   "PAIS": "Sri Lanka"
+ },
+ {
+   "COD": "SWZ",
+   "PAIS": "Suazilandia"
+ },
+ {
+   "COD": "ZAF",
+   "PAIS": "Sudafrica"
+ },
+ {
+   "COD": "SDN",
+   "PAIS": "Sudan"
+ },
+ {
+   "COD": "SWE",
+   "PAIS": "Suecia"
+ },
+ {
+   "COD": "CHE",
+   "PAIS": "Suiza"
+ },
+ {
+   "COD": "SUR",
+   "PAIS": "Surinam"
+ },
+ {
+   "COD": "SJM",
+   "PAIS": "Svalbard y Jan Mayen"
+ },
+ {
+   "COD": "THA",
+   "PAIS": "Tailandia"
+ },
+ {
+   "COD": "TWN",
+   "PAIS": "Taiwan"
+ },
+ {
+   "COD": "TZA",
+   "PAIS": "Tanzania"
+ },
+ {
+   "COD": "TJK",
+   "PAIS": "Tayikistan"
+ },
+ {
+   "COD": "IOT",
+   "PAIS": "Territorio Britanico del Ocean"
+ },
+ {
+   "COD": "ATF",
+   "PAIS": "Territorios Australes Francese"
+ },
+ {
+   "COD": "TLS",
+   "PAIS": "Timor Oriental"
+ },
+ {
+   "COD": "TGO",
+   "PAIS": "Togo"
+ },
+ {
+   "COD": "TKL",
+   "PAIS": "Tokelau"
+ },
+ {
+   "COD": "TON",
+   "PAIS": "Tonga"
+ },
+ {
+   "COD": "TTO",
+   "PAIS": "Trinidad y Tobago"
+ },
+ {
+   "COD": "TUN",
+   "PAIS": "Tunez"
+ },
+ {
+   "COD": "TCA",
+   "PAIS": "Islas Turcas y Caicos"
+ },
+ {
+   "COD": "TKM",
+   "PAIS": "Turkmenistan"
+ },
+ {
+   "COD": "TUR",
+   "PAIS": "Turquia"
+ },
+ {
+   "COD": "TUV",
+   "PAIS": "Tuvalu"
+ },
+ {
+   "COD": "UKR",
+   "PAIS": "Ucrania"
+ },
+ {
+   "COD": "UGA",
+   "PAIS": "Uganda"
+ },
+ {
+   "COD": "URY",
+   "PAIS": "Uruguay"
+ },
+ {
+   "COD": "UZB",
+   "PAIS": "Uzbekistan"
+ },
+ {
+   "COD": "VUT",
+   "PAIS": "Vanuatu"
+ },
+ {
+   "COD": "VAT",
+   "PAIS": "Ciudad del Vaticano"
+ },
+ {
+   "COD": "VEN",
+   "PAIS": "Venezuela"
+ },
+ {
+   "COD": "VNM",
+   "PAIS": "Vietnam"
+ },
+ {
+   "COD": "VGB",
+   "PAIS": "Islas Virgenes Britanicas"
+ },
+ {
+   "COD": "VIR",
+   "PAIS": "Islas Virgenes Estadounidenses"
+ },
+ {
+   "COD": "WLF",
+   "PAIS": "Wallis y Futuna"
+ },
+ {
+   "COD": "YEM",
+   "PAIS": "Yemen"
+ },
+ {
+   "COD": "DJI",
+   "PAIS": "Yibuti"
+ },
+ {
+   "COD": "ZMB",
+   "PAIS": "Zambia"
+ },
+ {
+   "COD": "ZWE",
+   "PAIS": "Zimbabue"
+ }
+]

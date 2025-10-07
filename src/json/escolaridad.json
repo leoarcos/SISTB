@@ -1,0 +1,42 @@
+[
+    {
+     "cod": "1",
+     "nombre": "Primaria incompleta"
+    },
+    {
+     "cod": "10",
+     "nombre": "No Registra"
+    },
+    {
+     "cod": "2",
+     "nombre": "Primaria completa"
+    },
+    {
+     "cod": "3",
+     "nombre": "Secundaria incompleta"
+    },
+    {
+     "cod": "4",
+     "nombre": "Secundaria completa"
+    },
+    {
+     "cod": "5",
+     "nombre": "Tecnico"
+    },
+    {
+     "cod": "6",
+     "nombre": "Tecnologico"
+    },
+    {
+     "cod": "7",
+     "nombre": "Universitario incompleto"
+    },
+    {
+     "cod": "8",
+     "nombre": "Universitario completo"
+    },
+    {
+     "cod": "9",
+     "nombre": "Ninguna"
+    }
+   ]

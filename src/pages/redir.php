@@ -1,0 +1,101 @@
+<?php
+
+	
+if($_GET['rut']=='libroPacientes'){
+	header('Location: libroPacientes/');
+}else if($_GET['rut']=='registrarPaciente'){
+	header('Location: libroPacientes/registrarPaciente.php');
+}else if($_GET['rut']=='IDeditPaciente'){
+	header('Location: libroPacientes/editarIDPaciente.php');
+}else if($_GET['rut']=='consultaMultiple'){
+	header('Location: libroPacientes/consultaMultiple.php');
+}else if($_GET['rut']=='circular007'){
+	header('Location: libroPacientes/libroPacientes007.php');
+}else if($_GET['rut']=='registrarAutorizacion'){
+	header('Location: farmacia/registrarAutorizacion.php');
+}else if($_GET['rut']=='busquedaAutorizacion'){
+	header('Location: farmacia/busquedaAutorizacion.php');
+}else if($_GET['rut']=='descargaAutorizacion'){
+	header('Location: farmacia/descargaAutorizacion.php');
+}else if($_GET['rut']=='listadoAutorizacion'){
+	header('Location: farmacia/listadoAutorizacion.php');
+}else if($_GET['rut']=='registrarMedicamento'){
+	header('Location: farmacia/registrarMedicamento.php');
+}else if($_GET['rut']=='listadoMedicamentos'){
+	header('Location: farmacia/listadoMedicamentos.php');
+}else if($_GET['rut']=='descarteMedicamentos'){
+	header('Location: farmacia/descarteMedicamentos.php');
+}else if($_GET['rut']=='formatoMedicamentosTrimestral'){
+	header('Location: farmacia/formatoMedicamentosTrimestral.php');
+}else if($_GET['rut']=='formatoMedicamentosMensual'){
+	header('Location: farmacia/formatoMedicamentosMensual.php');
+}else if($_GET['rut']=='formatoFarmacosFechas'){
+	header('Location: farmacia/formatoFarmacosFechas.php');
+}else if($_GET['rut']=='listadoMedicamentosPendientes'){
+	header('Location: farmacia/listadoMedicamentosPendientes.php');
+}else if($_GET['rut']=='listadoMedicamentosPendientesFechas'){
+	header('Location: farmacia/listadoMedicamentosPendientesFechas.php');
+}else if($_GET['rut']=='registrarStock'){
+	header('Location: farmacia/registrarStock.php');
+}else if($_GET['rut']=='descargaStock'){
+	header('Location: farmacia/descargaStock.php');
+}else if($_GET['rut']=='listadoStock'){
+	header('Location: farmacia/listadoStock.php');
+}else if($_GET['rut']=='registroSintomaticoRespiratorio'){
+	header('Location: sintomaticos/registroSintomaticoRespiratorio.php');
+}else if($_GET['rut']=='consultaSintomaticoRespiratorio'){
+	header('Location: sintomaticos/consultaSintomaticoRespiratorio.php');
+}else if($_GET['rut']=='sintomaticoRespiratorioPositivo'){
+	header('Location: sintomaticos/sintomaticoRespiratorioPositivo.php');
+}else if($_GET['rut']=='registroQuimioprofilaxis'){
+	header('Location: quimioprofilaxis/registroQuimioprofilaxis.php');
+}else if($_GET['rut']=='consultaQuimioprofilaxis'){
+	header('Location: quimioprofilaxis/consultaQuimioprofilaxis.php');
+}else if($_GET['rut']=='consultaMultipleQuimioprofilaxis'){
+	header('Location: quimioprofilaxis/consultaMultipleQuimioprofilaxis.php');
+}else if($_GET['rut']=='Quimioprofilaxis007'){
+	header('Location: quimioprofilaxis/Quimioprofilaxis007.php');
+}else if($_GET['rut']=='informeTrimestralCasosTb'){
+	header('Location: informes/informeTrimestralCasosTuberculosis.php');
+}else if($_GET['rut']=='informeMensualCasosTb'){
+	header('Location: informes/informeMensualCasosTuberculosis.php');
+}else if($_GET['rut']=='cuatrenio'){
+	header('Location: informes/cuatrenio.php');
+}else if($_GET['rut']=='cohorte'){
+	header('Location: informes/cohorte.php');
+}else if($_GET['rut']=='informeEstadistico'){
+	header('Location: informes/informesEstadisticos.php');
+}else if($_GET['rut']=='informeEstadisticoEncuestaSR'){
+	header('Location: informes/informeestadisticoEncuestaSR.php');
+}else if($_GET['rut']=='listadoMedicamentosIps'){
+	header('Location: informes/listadoEntregamedicamentosIps.php');
+}else if($_GET['rut']=='listadoMedicamentosIpsFechas'){
+	header('Location: informes/listadoEntregamedicamentosIpsFechas.php');
+}else if($_GET['rut']=='consultaFechaLibroContacto'){
+	header('Location: informes/consultafechasLibrocontactos007.php');
+}else if($_GET['rut']=='busquedaEspecialLibros'){
+	header('Location: informes/busquedaEspecialTodosLibros.php');
+}else if($_GET['rut']=='todosLibros007'){
+	header('Location: informes/todosLibros007.php');
+}else if($_GET['rut']=='informeCasosdepartamento'){
+	header('Location: informes/informescasosDPTO.php');
+}else if($_GET['rut']=='registroFarmacoResitente'){
+	header('Location: resistentesFarmacos/registroFarmacoResitente.php');
+}else if($_GET['rut']=='consultaResitentes'){
+	header('Location: resistentesFarmacos/consultaResistentes.php');
+}else if($_GET['rut']=='libroResistentesMSPS'){
+	header('Location: resistentesFarmacos/libroResistentesMSPS.php');
+}else if($_GET['rut']=='libroResistentes007'){
+	header('Location: resistentesFarmacos/libroResistentes007.php');
+}else if($_GET['rut']=='semestralTB-FR'){
+	header('Location: resistentesFarmacos/semestralTB-FR.php');
+}else if($_GET['rut']=='trimestralTB-R'){
+	header('Location: resistentesFarmacos/trimestralTB-R.php');
+}else if($_GET['rut']=='usuarios'){
+	header('Location: usuarios/usuarios.php');
+}else if($_GET['rut']=='listarIPS'){
+	header('Location: adicionales/listarIPS.php');
+}else{
+	header('Location: ../');
+}
+?>
