@@ -97,7 +97,37 @@
 							<div class="panel-body">
 								
 								<div class="row">
-									
+									<div class="col-md-12">
+                    <a href="../../../servicios/generarExcelLibroPacientes.php">
+                      <button type="button" class="btn btn-success btn-block" style="background-color: #41B314;  height: 50px;">Generar Listado en Excel</button>
+                    </a>
+                  </div>
+                  <div class="col-md-12">
+                  	<table class="table table-hover display " id="tableL" style="max-height: 600px;">
+                  		<thead>
+		                    <tr>
+		                      <th>Acción  </th>
+		                      <th>#</th>
+		                      <th>Fecha</th>
+		                      <th>Trimestre</th>
+		                      <th>Nombres</th>
+		                      <th>Identificacion</th>
+		                      <th>Etnia</th>
+		                      <th>Municipio</th>
+		                      <th class="hide">Dirección</th>
+		                      <th class="hide">Régimen</th>
+		                      <th>EPS/ARS</th>
+		                      <th>Sexo</th>
+		                      <th>Edad</th>
+		                      <th>Tipo TB</th>
+		                    </tr>
+		                  </thead>
+		                  <tbody id="TablaLibroP">
+		                    
+		                    
+		                  </tbody>
+		                </table>
+                  </div>
 								</div>
 
 								 
@@ -108,7 +138,7 @@
 										<h4 class="no-margin"></h4>
 									</div><!-- /.col -->
 									<div class="col-xs-6 text-right">
-										<a type="button" class="btn btn-success  " id="RegistroP" >Registrar Paciente</a>
+										 
 									</div><!-- /.col -->
 								</div><!-- /.row -->
 							</div>

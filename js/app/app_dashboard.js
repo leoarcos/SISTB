@@ -76,7 +76,34 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
         console.error('El elemento .menu-item no se encontró en el DOM.');
     }
+ 
+    cargarDatos();
+
 });
+async function cargarDatos(){
+
+	const datos={'sql': "SELECT count(*) AS cantidad FROM libroderegistro"};
+    const url = 'https://cors-anywhere.herokuapp.com/http://186.31.31.123/sistbweb/servicios/listarLibroPacientes.php'; 
+	try {
+		const respuesta = await fetch(url, {
+		  method: 'POST',
+		  headers: {
+		    'Content-Type': 'application/json' // Indica que estás enviando JSON
+		  },
+		  body: JSON.stringify(datos)
+		});
+
+		if (!respuesta.ok) {
+		  throw new Error(`Error HTTP: ${respuesta.status}`);
+		}
+
+		const resultado = await respuesta.json(); // Si el servidor responde con JSON
+		console.log('Respuesta del servidor:', resultado);
+
+	} catch (error) {
+		console.error('Error en la petición:', error);
+	}
+}
 
 
 $(function	()	{
