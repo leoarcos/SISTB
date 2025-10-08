@@ -68,7 +68,7 @@
 				 
 				<div class="main-menu">
 					<ul>
-						<li class="active">
+						<li class="active" id="menuHome">
 							<a  href="index.html"  >
 								<span class="menu-icon">
 									<i class="fa fa-dashboard fa-lg"></i> 
@@ -79,7 +79,7 @@
 								<span class="menu-hover"></span>
 							</a>
 						</li>
-						<li class="">
+						<li class="" id="menuLibro">
 							<a  href="#" class="menu-item" >
 								<span class="menu-icon">
 									<i class="fa fa-book fa-lg"></i> 
@@ -100,7 +100,7 @@
 								<li><a href="../redir.php?rut=circular007">Consulta Libro de Pacientes Circular 007</a></li>
 							</ul>
 						</li>
-						<li class="">
+						<li class="" id="menuSintomaticos">
 							<a href="#" class="menu-item">
 								<span class="menu-icon">
 									<i class="fa fa-heart fa-lg"></i> 
@@ -118,7 +118,7 @@
 								<li><a href="../redir.php?rut=consultaSintomaticoRespiratorio">Consultar nombre/identificación</a></li> 
 							</ul>
 						</li>
-						<li class="">
+						<li class="" id="menuQuimioprofilaxis">
 							<a  href="#" class="menu-item">
 								<span class="menu-icon">
 									<i class="fa fa-flask fa-lg"></i> 
@@ -138,7 +138,7 @@
 								<li><a href="../redir.php?rut=Quimioprofilaxis007">Libro de Quimioprofilaxis circular 007</a></li>  
 							</ul>
 						</li>
-						<li class="">
+						<li class="" id="menuResistentes">
 							<a  href="#" class="menu-item">
 								<span class="menu-icon">
 									<i class="fa fa-leaf fa-lg"></i> 
@@ -156,7 +156,7 @@
 								<li><a href="../redir.php?rut=consultaResitentes">Consultar nombre/identificación</a></li> 
 							</ul>
 						</li>
-						<li>
+						<li  id="menuFarmacia">
 						    <a href="#" class="menu-item">
 						        <span class="menu-icon">
 						            <i class="fa fa-magic fa-lg"></i>
@@ -202,7 +202,7 @@
 						    </ul>
 						</li>
 
-						<li class=""> 
+						<li class="" id="menuInformes"> 
 							<a  href="#" class="menu-item">
 								<span class="menu-icon">
 									<i class="fa fa-bar-chart-o fa-lg"></i> 
@@ -219,7 +219,7 @@
 								<li><a href="../redir.php?rut=informeTrimestralCasosTb">Casos de actividades tuberculosis</a></li>  
 							</ul>
 						</li>
-						<li class=""> 
+						<li class="" id="menuAdmin"> 
 							<a  href="#"  class="menu-item" >
 								<!--<a  href="#" data-toggle="modal" data-target="#servidor-modal" >-->
 								<span class="menu-icon">

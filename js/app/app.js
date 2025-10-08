@@ -1,4 +1,26 @@
 
+document.addEventListener('DOMContentLoaded', () => {
+	console.log('bienvenidos');
+    const menuItems = document.querySelectorAll('.menu-item, .submenu-item');
+
+    menuItems.forEach(menuItem => {
+        const arrowIcon = menuItem.querySelector('.arrow-icon i');
+        const submenu = menuItem.nextElementSibling;
+
+        if (submenu && submenu.classList.contains('submenu')) {
+            menuItem.addEventListener('click', (event) => {
+                event.preventDefault();
+
+                submenu.classList.toggle('show');
+
+                if (arrowIcon) {
+                    arrowIcon.classList.toggle('active-arrow', submenu.classList.contains('show'));
+                }
+            });
+        }
+    });
+});
+
 $(function	()	{
 
 	// Cookie validation
