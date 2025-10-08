@@ -55,31 +55,27 @@ let gestanteServidor=[];
 
 
 document.addEventListener('DOMContentLoaded', () => {
-    const menuItem = document.querySelector('.menu-item');
-    const arrowIcon = menuItem.querySelector('.arrow-icon i'); // Seleccionar el ícono de flecha
-    const submenu = menuItem.nextElementSibling; // Seleccionar el submenú
+	console.log('bienvenidos');
+    const menuItems = document.querySelectorAll('.menu-item, .submenu-item');
 
-    if (menuItem) { // Verifica que el elemento existe antes de agregar el evento
-        menuItem.addEventListener('click', (event) => {
-            event.preventDefault(); // Evitar que el enlace navegue
-            
-            // Alternar la clase 'show' en el submenú
-            submenu.classList.toggle('show');
+    menuItems.forEach(menuItem => {
+        const arrowIcon = menuItem.querySelector('.arrow-icon i');
+        const submenu = menuItem.nextElementSibling;
 
-            // Cambiar la dirección de la flecha
-            if (submenu.classList.contains('show')) {
-                arrowIcon.classList.add('active-arrow'); // Agregar la clase de rotación
-            } else {
-                arrowIcon.classList.remove('active-arrow'); // Quitar la clase de rotación
-            }
-        });
-    } else {
-        console.error('El elemento .menu-item no se encontró en el DOM.');
-    }
- 
-    cargarDatos();
+        if (submenu && submenu.classList.contains('submenu')) {
+            menuItem.addEventListener('click', (event) => {
+                event.preventDefault();
 
+                submenu.classList.toggle('show');
+
+                if (arrowIcon) {
+                    arrowIcon.classList.toggle('active-arrow', submenu.classList.contains('show'));
+                }
+            });
+        }
+    });
 });
+
 async function cargarDatos(){
 
 	const datos={'sql': "SELECT count(*) AS cantidad FROM libroderegistro"};

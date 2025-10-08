@@ -3,6 +3,7 @@
 	.arrow-icon {
 		margin-left: auto; /* Alinear la flecha a la derecha */
 		transition: transform 0.63s ease !important; /* Animación suave para el cambio de dirección */
+    	float: right;
 	}
 
 	.submenu {
@@ -20,6 +21,7 @@
 		display: block; /* Mostrar el submenú */
 		opacity: 1; /* Opacidad completa */
 		height: auto; /* Permitir que el contenido se ajuste automáticamente */
+    	transition: transform 0.3s ease;
 	}
 
 	.submenu li {
@@ -38,6 +40,7 @@
 	/* Clase para rotar la flecha al abrir el menú */
 	.active-arrow {
 		transform: rotate(90deg); /* Rotar la flecha 90 grados */
+    	transition: transform 0.3s ease;
 	}
 
 </style>
@@ -90,7 +93,7 @@
 								<span class="menu-hover"></span>
 							</a>
 							<ul class="submenu">
-								<li class="active"><a href="../redir.php?rut=registrarPaciente">Registrar</a></li>
+								<li><a href="../redir.php?rut=registrarPaciente">Registrar</a></li>
 								<li><a href="../redir.php?rut=IDeditPaciente">Identificación</a></li>
 								<li><a href="../redir.php?rut=libroPacientes">Listar</a></li>
 								<li><a href="../redir.php?rut=consultaMultiple">Consulta Multiple</a></li>
@@ -98,70 +101,142 @@
 							</ul>
 						</li>
 						<li class="">
-							<a href="#" data-toggle="modal" data-target="#ambulatorio-modal">
+							<a href="#" class="menu-item">
 								<span class="menu-icon">
 									<i class="fa fa-heart fa-lg"></i> 
 								</span>
 								<span class="text">
 									Sintomaticos Respiratorios
 								</span>
+								<span class="arrow-icon">
+									<i class="fa fa-chevron-right"></i> <!-- Flecha a la derecha -->
+								</span>
 								<span class="menu-hover"></span>
 							</a>
+							<ul class="submenu">
+								<li><a href="../redir.php?rut=registroSintomaticoRespiratorio">Registrar</a></li>
+								<li><a href="../redir.php?rut=consultaSintomaticoRespiratorio">Consultar nombre/identificación</a></li> 
+							</ul>
 						</li>
 						<li class="">
-							<a  href="#" data-toggle="modal" data-target="#agenda-modal" onclick="Javascript: listarAgenda();">
+							<a  href="#" class="menu-item">
 								<span class="menu-icon">
 									<i class="fa fa-flask fa-lg"></i> 
 								</span>
 								<span class="text">
 									QuimioProfilaxis
 								</span>
+								<span class="arrow-icon">
+									<i class="fa fa-chevron-right"></i> <!-- Flecha a la derecha -->
+								</span>
 								<span class="menu-hover"></span>
 							</a>
+							<ul class="submenu">
+								<li><a href="../redir.php?rut=registroQuimioprofilaxis">Registrar</a></li>
+								<li><a href="../redir.php?rut=consultaQuimioprofilaxis">Consultar nombre/identificación</a></li> 
+								<li><a href="../redir.php?rut=consultaMultipleQuimioprofilaxis">Consultar multiple</a></li> 
+								<li><a href="../redir.php?rut=Quimioprofilaxis007">Libro de Quimioprofilaxis circular 007</a></li>  
+							</ul>
 						</li>
 						<li class="">
-							<a  href="#" data-toggle="modal" data-target="#usuarios-modal">
+							<a  href="#" class="menu-item">
 								<span class="menu-icon">
 									<i class="fa fa-leaf fa-lg"></i> 
 								</span>
 								<span class="text">
-									Resistente a Farmacos
+									Resistente a<br>Farmacos
+								</span>
+								<span class="arrow-icon">
+									<i class="fa fa-chevron-right"></i> <!-- Flecha a la derecha -->
 								</span>
 								<span class="menu-hover"></span>
 							</a>
+							<ul class="submenu">
+								<li><a href="../redir.php?rut=registroFarmacoResitente">Registrar</a></li>
+								<li><a href="../redir.php?rut=consultaResitentes">Consultar nombre/identificación</a></li> 
+							</ul>
 						</li>
-						<li class="">
-							<a  href="#" data-toggle="modal" data-target="#RIPS-modal">
-								<span class="menu-icon">
-									<i class="fa fa-magic fa-lg"></i> 
-								</span>
-								<span class="text">
-									Farmacia
-								</span>
-								<span class="menu-hover"></span>
-							</a>
+						<li>
+						    <a href="#" class="menu-item">
+						        <span class="menu-icon">
+						            <i class="fa fa-magic fa-lg"></i>
+						        </span>
+						        <span class="text">Farmacia</span>
+						        <span class="arrow-icon"><i class="fa fa-chevron-right"></i></span>
+						    </a>
+						    <ul class="submenu">
+						        <li>
+						            <a href="#" class="submenu-item">
+						                Medicamentos
+						                <span class="arrow-icon"><i class="fa fa-chevron-right"></i></span>
+						            </a>
+						            <ul class="submenu">
+						                <li><a href="../redir.php?rut=registrarMedicamento">Registrar</a></li>
+						                <li><a href="../redir.php?rut=listadoMedicamentos">Listar</a></li>
+						                <li><a href="../redir.php?rut=descarteMedicamentos">Descartar</a></li>
+						            </ul>
+						        </li>
+						        <li>
+						            <a href="#" class="submenu-item">
+						                Autorización
+						                <span class="arrow-icon"><i class="fa fa-chevron-right"></i></span>
+						            </a>
+						            <ul class="submenu">
+						                <li><a href="../redir.php?rut=registrarAutorizacion">Registrar</a></li>
+						                <li><a href="../redir.php?rut=busquedaAutorizacion">Búsqueda y modificación</a></li>
+						                <li><a href="../redir.php?rut=descargaAutorizacion">Descarga de autorizaciones por listado</a></li>
+						                <li><a href="../redir.php?rut=listadoAutorizacion">Listado de autorizaciones</a></li>
+						            </ul>
+						        </li>
+						        <li>
+						            <a href="#" class="submenu-item">
+						                STOCK
+						                <span class="arrow-icon"><i class="fa fa-chevron-right"></i></span>
+						            </a>
+						            <ul class="submenu">
+						                <li><a href="../redir.php?rut=registrarStock">Registro</a></li>
+						                <li><a href="../redir.php?rut=descargaStock">Descarga</a></li>
+						                <li><a href="../redir.php?rut=listadoStock">Listado</a></li>
+						            </ul>
+						        </li>
+						    </ul>
 						</li>
+
 						<li class=""> 
-							<a  href="#" data-toggle="modal" data-target="#servidor-modal" >
+							<a  href="#" class="menu-item">
 								<span class="menu-icon">
 									<i class="fa fa-bar-chart-o fa-lg"></i> 
 								</span>
 								<span class="text">
 									Informes
 								</span>
+								<span class="arrow-icon">
+									<i class="fa fa-chevron-right"></i> <!-- Flecha a la derecha -->
+								</span>
 								<span class="menu-hover"></span>
 							</a>
+							<ul class="submenu">
+								<li><a href="../redir.php?rut=informeTrimestralCasosTb">Casos de actividades tuberculosis</a></li>  
+							</ul>
 						</li>
 						<li class=""> 
-							<a  href="#" data-toggle="modal" data-target="#servidor-modal" >
+							<a  href="#"  class="menu-item" >
+								<!--<a  href="#" data-toggle="modal" data-target="#servidor-modal" >-->
 								<span class="menu-icon">
-									<i class="fa fa-group fa-lg"></i> 
+									<i class="fa fa-cog fa-lg"></i> 
 								</span>
 								<span class="text">
-									Usuarios
+									Administración
+								</span>
+								<span class="arrow-icon">
+									<i class="fa fa-chevron-right"></i> <!-- Flecha a la derecha -->
 								</span>
 								<span class="menu-hover"></span>
 							</a>
+							<ul class="submenu">
+								<li><a href="../redir.php?rut=usuarios">Usuarios</a></li>
+								<li><a href="../redir.php?rut=listarIPS">Administrar IPS</a></li> 
+							</ul>
 						</li> 
 					</ul>
 					

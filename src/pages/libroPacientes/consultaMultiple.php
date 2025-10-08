@@ -117,15 +117,18 @@
 							<div class="panel-body">
 								
 								<div class="row">
-									<div class="col-md-12 ">
-                                        <div class="form-inline row">
-                                            <div class="form-group col-md-2 ">
+                                    <div class="col-md-12">
+                                                                      <div class="form-group col-md-2 ">
 <div class="form-check">
   <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
   <label class="form-check-label" for="flexCheckChecked">
     Checked checkbox
   </label>
 </div>
+                                    </div>
+									<div class="col-md-12 ">
+                                        <div class="form-inline row">
+              
                                                 <label class="fancy-checkbox" >
                                                     <input type="checkbox" style="border: 1px solid black;" class="form-check" id="CCM-ano" onChange="Javascript: checkBoxConsultaMultiple('ano');">
                                                     <span>Año: </span>
