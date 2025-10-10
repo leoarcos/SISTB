@@ -2,7 +2,7 @@
 <html lang="es">
   <head>
     <meta charset="utf-8">
-    <title>GIMMIDS</title>
+    <title>SISTB - Medicamentos</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -85,7 +85,7 @@
 		<div id="main-container">
 			<div id="breadcrumb">
 				<ul class="breadcrumb">
-					 <li><i class="fa fa-dashboard"></i><a href="index.html"> Registrar Paciente</a></li> 
+					 <li><i class="fa fa-magic"></i><a href="index.html"> Listado de Medicamentos</a></li> 
 				</ul>
 			</div><!-- /breadcrumb-->
 		 
@@ -98,21 +98,37 @@
 							<div class="panel-body">
 								
 								<div class="row">
+									<div class="col-md-12">
+										<table class="table table-hover display" id="tableMedicam" style="max-height: 600px;">
+                        <thead>
+                            <tr>
+                                <th>Acción</th>
+                                <th>Nombre</th>
+                                <th>Presentación</th>
+                                <th>Concentración</th>
+                                <th>Cantidad</th>
+                                <th>Lote</th>
+                                <th>Fecha Entrega</th>
+                                <th>Fecha Vencimiento</th>
+                                <th>Observaciones</th>
+                                <th>Remitente</th>
+                                <th>Donado</th>
+                                <th>Laboratorio</th>  
+                            </tr>
+                        </thead>
+                        <tbody id="TablaListadoMedicamentos">
+                        
+                        
+                        </tbody>
+                    </table>
+                    
+									</div>
 									
 								</div>
-
+								 
 								 
 							</div>
-							<div class="panel-footer">
-								<div class="row">
-									<div class="col-xs-6">
-										<h4 class="no-margin"></h4>
-									</div><!-- /.col -->
-									<div class="col-xs-6 text-right">
-										<a type="button" class="btn btn-success  " id="RegistroP" >Registrar Paciente</a>
-									</div><!-- /.col -->
-								</div><!-- /.row -->
-							</div>
+						 
 						</div><!-- /panel -->
 								
 					</div>
@@ -176,7 +192,7 @@
 
 	 
 	<!-- Perfect -->
-	<script src="../../../js/app/app_libroPacientes.js"></script>
+	<script src="../../../js/app/app_farmacia.js"></script>
 	<script src="../../../js/app/app.js"></script>
 	<script>
 		

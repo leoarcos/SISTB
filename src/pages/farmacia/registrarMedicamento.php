@@ -2,7 +2,7 @@
 <html lang="es">
   <head>
     <meta charset="utf-8">
-    <title>GIMMIDS</title>
+    <title>SISTB - Medicamentos</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -85,7 +85,7 @@
 		<div id="main-container">
 			<div id="breadcrumb">
 				<ul class="breadcrumb">
-					 <li><i class="fa fa-dashboard"></i><a href="index.html"> Registrar Paciente</a></li> 
+					 <li><i class="fa fa-magic"></i><a href="index.html"> Registrar Medicamento</a></li> 
 				</ul>
 			</div><!-- /breadcrumb-->
 		 
@@ -100,19 +100,103 @@
 								<div class="row">
 									
 								</div>
+								<form action='Javascript: registrarMedicamento();'>
+                      <div class=" row">
+                        <div class="form-group col-md-3" >
+                            <span for="nombreMedicamento" >Nombre: </span>
+                            <input list="nombreMedicamentos" name="nombreMedicamento" id="nombreMedicamento" class="form-control "  >
+                            <datalist id="nombreMedicamentos">
+                            
+                            </datalist>
+
+                        </div>
+                        <div class="form-group col-md-3 "> 
+                            <span>Presentación: </span>
+                            <select class="form-control" id="presentacion"  >
+                                <option> </option>
+                                <option value="TABLETAS">TABLETAS</option>
+                                <option value="FRASCOS">FRASCOS</option>
+                                <option value="AMPOLLA">AMPOLLA </option>
+                                <option value="SOBRES">SOBRES</option>
+                                <option value="CAPSULAS">CAPSULAS</option>
+                                <option value="COMPRIMIDOS">COMPRIMIDOS</option>
+                                
+                            </select>  
+                        </div>
+                        <div class="form-group col-md-3 "> 
+                            <span>Concentracion: </span>
+                            <input list="concentracion" name="concentracions" id="concentracions" class="form-control "  >
+                            <datalist id="concentracion">
+                            
+                            </datalist> 
+                                
+                        </div>
+                        <div class="form-group col-md-3 "> 
+                            <span>Laboratorio: </span>
+                            <input type="text" class="form-control" id="laboratorio"  >
+                                
+                        </div>
+                        <div class="form-group col-md-3 "> 
+                            <span>Cantidad: </span>
+                            <input type="number" class="form-control" min=1 id="cantidad"  >
+                                
+                        </div>
+                        <div class="form-group col-md-3 "> 
+                            <span>Lote: </span>
+                            <input type="text" class="form-control" id="lote"  >
+                                
+                        </div> 
+                        <div class="form-group col-md-3 "> 
+                            <span>Fecha Ingreso: </span>
+                            <input type="date" class="form-control" id="fechaIngreso"  >
+                                
+                        </div>
+                        <div class="form-group col-md-3 "> 
+                            <span>Fecha Vencimiento: </span>
+                            <input type="date" class="form-control" id="fechaVencimiento"  >
+                                
+                        </div>
+                      </div>
+                      <div class=" row">
+                        <div class="form-group col-md-12 "> 
+                            <span>Observaciones: </span>
+                            <textarea  class="form-control" id="observaciones"  style="width:100%;"></textarea>
+                                
+                        </div>
+                        
+                      </div>
+                      <div class=" row">
+                        
+                        <div class="form-group col-md-3"> 
+                            <span>Donado: </span>
+                            <select class="form-control" id="donado"  >
+                                <option> </option>
+                                <option value="SI">SI</option>
+                                <option value="NO">NO</option>
+                                
+                            </select>  
+                        </div> 
+                        <div class="form-group col-md-9  "> 
+                            <span>Nombre del donante: </span>
+                            <input type="text" class="form-control" id="nombreDonante"  >
+                                
+                        </div>
+                      </div>
+                      <div class=" row">
+                        
+                        <div class="form-group col-md-8"> 
+                          
+                        </div> 
+                        <div class="form-group col-md-4  ">  
+                            <input type="submit" class="form-control btn btn-success" id="nombreDonante"  value="Registrar Medicamento">
+                                
+                        </div>
+                      </div>
+                    </form>
 
 								 
 							</div>
-							<div class="panel-footer">
-								<div class="row">
-									<div class="col-xs-6">
-										<h4 class="no-margin"></h4>
-									</div><!-- /.col -->
-									<div class="col-xs-6 text-right">
-										<a type="button" class="btn btn-success  " id="RegistroP" >Registrar Paciente</a>
-									</div><!-- /.col -->
-								</div><!-- /.row -->
-							</div>
+						 
 						</div><!-- /panel -->
 								
 					</div>
@@ -176,7 +260,7 @@
 
 	 
 	<!-- Perfect -->
-	<script src="../../../js/app/app_libroPacientes.js"></script>
+	<script src="../../../js/app/app_farmacia.js"></script>
 	<script src="../../../js/app/app.js"></script>
 	<script>
 		

@@ -2,18 +2,11 @@
 <html lang="es">
   <head>
     <meta charset="utf-8">
-    <title>GIMMIDS</title>
+    <title>SISTB - Resistente a Farmacos</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-	<script>
-		console.log("Bienvenido a GIMMIDS");
-			if (typeof module === 'object') {
-				window.module = module; 
-				module = undefined;
-			}
-
-	</script>
+ 
 
     <!-- Bootstrap core CSS -->
     <link href="../../../bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -85,7 +78,7 @@
 		<div id="main-container">
 			<div id="breadcrumb">
 				<ul class="breadcrumb">
-					 <li><i class="fa fa-dashboard"></i><a href="index.html"> Registrar Paciente</a></li> 
+					 <li><i class="fa fa-dashboard"></i><a href="index.html"> Consulta Resitentes a Farmacos</a></li> 
 				</ul>
 			</div><!-- /breadcrumb-->
 		 
@@ -98,7 +91,44 @@
 							<div class="panel-body">
 								
 								<div class="row">
-									
+									<div class="col-md-12 ">
+                      <a href="../../../servicios/generarExcelResistentesFarmacos.php">
+                        <button type="button" class="btn btn-success btn-block" style="background-color: #41B314;  height: 50px;">Generar Listado en Excel</button>
+                      </a>
+                    </div> 
+
+					          <div class="col-md-12">
+					              <!-- TABLE HOVER -->
+					            <div class="panel table-responsive">
+					              <div class="panel-heading">
+					                <h3 class="panel-title"><strong>Cantidad Registros:</strong> <span id="cont">00</span></h3>
+					              </div>
+					              <div class="panel-body">
+					                <table class="table table-hover display" id="tableR" style="max-height: 600px;">
+					                  <thead>
+					                    <tr>
+					                      <th>Acción  </th>
+					                      <th>#</th>
+					                      <th>Tipo de caso</th>
+					                      <th>Año confirmación</th>
+					                      <th>Ingreso Tto</th>
+					                      <th>Fecha ingreso Tto 2da fase</th>
+					                      <th>Nombres</th>
+					                      <th>Tipo Id</th>
+					                      <th># Id</th>
+					                      <th>Sexo</th>
+					                      <th>Municipio</th> 
+					                    </tr>
+					                  </thead>
+					                  <tbody id="TablaResistentes">
+					                    
+					                    
+					                  </tbody>
+					                </table>
+					              </div>
+					            </div>
+					            <!-- END TABLE HOVER -->
+					          </div>
 								</div>
 
 								 

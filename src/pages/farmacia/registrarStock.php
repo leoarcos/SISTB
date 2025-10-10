@@ -2,19 +2,11 @@
 <html lang="es">
   <head>
     <meta charset="utf-8">
-    <title>GIMMIDS</title>
+    <title>SISTB - Farmacia</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-	<script>
-		console.log("Bienvenido a GIMMIDS");
-			if (typeof module === 'object') {
-				window.module = module; 
-				module = undefined;
-			}
-
-	</script>
-
+	
     <!-- Bootstrap core CSS -->
     <link href="../../../bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	
@@ -85,7 +77,7 @@
 		<div id="main-container">
 			<div id="breadcrumb">
 				<ul class="breadcrumb">
-					 <li><i class="fa fa-dashboard"></i><a href="index.html"> Registrar Paciente</a></li> 
+					 <li><i class="fa fa-dashboard"></i><a href="index.html"> Registrar STOCK</a></li> 
 				</ul>
 			</div><!-- /breadcrumb-->
 		 
@@ -98,20 +90,312 @@
 							<div class="panel-body">
 								
 								<div class="row">
-									
+									<div class="col-md-12">
+										<center><h3 class="panel-title text-success "><strong>Registro Stock</strong></h3></center>
+                
+                  
+	                  <div class="row">
+	                    
+	                    <div class="col-md-12 ">
+	                        <ul class="nav nav-tabs">
+	                            <li class="active"><a data-toggle="tab" href="#datosBasicos">Datos Basicos</a></li> 
+	                            <li><a data-toggle="tab" href="#medicamentos">Medicamentos</a></li>
+	                            <li><a data-toggle="tab" href="#observaciones">Observaciones    </a></li>
+	                        </ul>
+
+	                        <div class="tab-content">
+	                            <div id="datosBasicos" class="tab-pane fade in active">
+	                                <div class=" row">
+	                                	<div class="col-md-8">
+	                                		<div class="row">
+	                                			<div class="form-group  col-md-6   "> 
+	                                        <span>Fecha de Solicitud: </span>
+	                                        <input type="date" class="form-control" id="fechaSolicitud"  > 
+		                                    </div>
+		                                    <div class="form-group col-md-6   "> 
+		                                        <span>Municipio: </span>
+		                                        <select class="form-control" id="mnpo"  >
+		                                            <option> </option> 
+		                                        </select>   
+		                                    </div>
+		                                    <div class="form-group col-md-6  ">
+		                                        <span for="EAPBes">Nombre: </span> 
+		                                        <input list="EAPB" name="EAPB" id="EAPBes" class="form-control "  >
+		                                        <datalist id="EAPB">
+		                                        
+		                                        </datalist>
+		                                    </div>
+		                                    <div class="form-group col-md-6">
+		                                        <span for="telefono">Telefono: </span>
+		                                        
+		                                            <input class="form-control" type="number" id="telefono">
+		                                        
+		                                    </div> 
+	                                		</div>
+	                                		
+	                                	</div>
+	                                	<div class="col-md-4">
+	                                		<br>
+	                                		<div class="panel panel-success consec">
+	                                            <div class="panel-heading">
+	                                                <center>
+	                                                    <label>
+	                                                        Autorización
+	                                                    </label>
+	                                                </center>
+	                                            </div>
+	                                            <div class="panel-body">
+	                                                <center>
+	                                                    <label id="consec" class="text-info">
+	                                                        0
+	                                                    </label>
+	                                                </center>
+	                                            </div>
+	                                        </div>
+	                                	</div>
+	                                    
+	                                </div>
+	                                
+	                                <div class=" row">
+	                                    
+	                                    <div class="panel panel-info">
+	                                        <div class="panel-heading">
+	                                            <center>
+	                                                <label>
+	                                                    FUNCIONARIO QUE REALIZA LA SOLICITUD
+	                                                </label>
+	                                            </center>
+	                                        </div>
+	                                        <div class="panel-body">
+	                                            <center>
+	                                                <div class=" row">
+	                                                    <div class="form-group col-md-3">
+	                                                        <label for="nombreFuncionario" >Nombres: </label>
+	                                                        <input type="text" name="nombreFuncionario" id="nombreFuncionario" class="form-control "  >
+	                                                    </div>
+	                                                    <div class="form-group col-md-3">
+	                                                        <label for="cargoFuncionario" >Cargo: </label>
+	                                                        <input type="text" name="cargoFuncionario" id="cargoFuncionario" class="form-control "  >
+	                                                    </div> 
+	                                                    <div class="form-group col-md-3">
+	                                                        <label for="instFuncionario" >Institución: </label>
+	                                                        <input type="text" name="instFuncionario" id="instFuncionario" class="form-control "  >
+	                                                    </div>
+	                                                    <div class="form-group col-md-3">
+	                                                        <label for="telefonoFuncionario" >Telefono: </label>
+	                                                        <input type="number" name="telefonoFuncionario" id="telefonoFuncionario" class="form-control "  >
+	                                                    </div>
+	                                                </div>
+	                                            </center>
+	                                        </div>
+	                                    </div>
+	                                </div>
+	                               
+	                            </div>
+	                           
+	                            <div id="medicamentos" class="tab-pane fade">
+	                                <div class="  row">
+	                                    <div class="form-group col-md-3">
+	                                        <span for="nombre-Medicamento">Nombre:</span>
+	                                        <input type="text" class="form-control" readonly name="nombre-Medicamento" id="nombre-Medicamento">
+	                                    </div>
+	                                    <div class="form-group col-md-3">
+	                                        <span for="presentacion-Medicamento">Presentación:</span>
+	                                        <input type="text" class="form-control" readonly name="presentacion-Medicamento" id="presentacion-Medicamento">
+	                                    </div>
+	                                    <div class="form-group col-md-3 ">
+	                                        <span for="concentracion-Medicamento">Concentración:</span>
+	                                        <input type="text" class="form-control" readonly name="concentracion-Medicamento" id="concentracion-Medicamento">
+	                                    </div>
+	                                      
+	                                    <div class="form-group col-md-3">
+	                                        <span for="cantiAutor-Medicamento">Cantidad Autorizada:</span>
+	                                        <input type="number"  min='0' class="form-control" name="cantiAutor-Medicamento" id="cantiAutor-Medicamento">
+	                                    </div>
+	                                    <div class="form-group col-md-3 ">
+	                                        <span for="Lote-Medicamento">Lote:</span>
+	                                        <input type="text" class="form-control" readonly name="Lote-Medicamento" id="Lote-Medicamento">
+	                                    </div>
+	                                    <div class="form-group col-md-3 ">
+	                                        <span for="Laboratorio-Medicamento">Laboratorio:</span>
+	                                        <input type="text" class="form-control" readonly name="Laboratorio-Medicamento" id="Laboratorio-Medicamento">
+	                                    </div> 
+	                                    <div class="form-group col-md-3">
+	                                        <span for="fechaIngres-Medicamento">Fecha Ingreso Medicamento:</span>
+	                                        <input type="date" class="form-control" readonly name="fechaIngres-Medicamento" id="fechaIngres-Medicamento">
+	                                    </div>
+	                                    <div class="form-group col-md-3">
+	                                        <span for="fechaVencimi-Medicamento">Fecha Vencimiento Medicamento:</span>
+	                                        <input type="date" class="form-control" readonly name="fechaVencimi-Medicamento" id="fechaVencimi-Medicamento">
+	                                    </div>
+	                                    
+	                                     
+	                                </div>
+	                                <div class="  row">
+	                                    <div class="form-group col-md-9 ">
+	                                    
+	                                    </div>
+	                                    <div class="form-group col-md-12 ">
+	                                        <a class="btn btn-success btn-block" onclick="Javascript: adjuntarMedicamento();">Adjuntar Medicamento</a>
+	                                    </div>
+
+	                                </div>
+	                                <br>
+	                                <div class="  row">
+	                                    
+	                                    <div class="panel panel-primary">
+	                                        <div class="panel-heading">
+	                                            <center>
+	                                                <label>
+	                                                    Listado de Medicamentos En Bodega
+	                                                </label>
+	                                            </center>
+	                                        </div>
+	                                        <div class="panel-body">
+	                                            <table class="table table-hover display" id="tableMedicamentosExistentes" style="max-height: 600px;">
+	                                                <thead>
+	                                                <tr> 
+	                                                    <th>Nombre</th>
+	                                                    <th>Presentación</th>
+	                                                    <th>Concentración</th>
+	                                                    <th>Cantidad</th> 
+	                                                    <th>Lote</th>
+	                                                    <th>Laboratorio</th>
+	                                                    <th>Fecha Ingreso</th>
+	                                                    <th>Fecha Vencimiento</th>
+	                                                    
+	                                                </tr>
+	                                                </thead>
+	                                                <tbody id="TablaMedicamentosExistentes">
+	                                                    <tr class="text-center">
+	                                                        <td colspan="8"> SIN DATOS</td>
+	                                                    </tr>
+	                                                
+	                                                </tbody>
+	                                            </table>
+	                                        </div>
+	                                    </div>
+	                                </div>
+	                                <div class="  row">
+	                                    
+	                                    <div class="panel panel-primary">
+	                                        <div class="panel-heading">
+	                                            <center>
+	                                                <label>
+	                                                    Listado de Medicamentos Asignados al Paciente
+	                                                </label>
+	                                            </center>
+	                                        </div>
+	                                        <div class="panel-body">
+	                                            <table class="table table-hover display" id="tableMedicamentosAsignadosPaciente" style="max-height: 600px;">
+	                                                <thead>
+	                                                <tr>
+	                                                    <th>Nombre</th>
+	                                                    <th>Presentación</th>
+	                                                    <th>Concentración</th> 
+	                                                    <th>Cantidad Autorizada</th> 
+	                                                    <th>Lote</th>
+	                                                    <th>Laboratorio</th>
+	                                                    <th>Fecha Ingreso</th>
+	                                                    <th>Fecha Vencimiento</th>
+	                                                    <th>Acción</th>
+	                                                </tr>
+	                                                </thead>
+	                                                <tbody id="TablaMedicamentosAsignadosPaciente">
+	                                                    <tr class="text-center">
+	                                                        <td colspan="10"> SIN DATOS</td>
+	                                                    </tr>
+	                                                
+	                                                </tbody>
+	                                            </table>
+	                                        </div>
+	                                    </div>
+	                                </div>
+
+
+	                                    
+	                            </div>
+	                            <div id="observaciones" class="tab-pane fade">
+	                                <div class="  row">
+	                                    <div class="form-group col-md-4">
+	                                        <span for="funcionarioSuperDocumentacion">Funcionario que Relaiza la Supervisión de la Información:</span>
+	                                        <input type="text" class="form-control" name="funcionarioSuperDocumentacion" id="funcionarioSuperDocumentacion">
+	                                            
+	                                    </div> 
+	                                      
+	                                    <div class="form-group col-md-8">
+	                                        <span for="observacionesStock">Observaciones:</span>
+	                                        <textarea  class="form-control" rows="5" name="observacionesStock" id="observacionesStock" style="width:100%;"></textarea>
+	                                    </div> 
+	                                    
+	                                      
+	                                    <div class="form-group col-md-12">
+	                                        <span for="pendiente">Soportes Pendientes:</span>
+	                                        <select class="form-control" name="pendiente" id="pendiente">
+	                                            <option></option>
+	                                            <option value='SI'>SI</option>
+	                                            <option value='NO'>NO</option>
+	                                        </select>
+	                                            
+	                                    </div> 
+	                                    
+	                                </div>
+	                                
+	                                <div class="  row">
+	                                <br>
+	                                    <div class="panel panel-info">
+	                                        <div class="panel-heading">
+	                                            <center>
+	                                                <label>
+	                                                    AUTORIZA
+	                                                </label>
+	                                            </center>
+	                                        </div>
+	                                        <div class="panel-body">
+	                                            <center>
+	                                                <div class="  row">
+	                                                    <div class="form-group col-md-4">
+	                                                        <span for="nombreAutoriza">Nombres:</span>
+	                                                        <input type="text"  class="form-control" rows="5" name="nombreAutoriza" id="nombreAutoriza" value="<?php echo $_SESSION['usuario']['nombres']." ".$_SESSION['usuario']['apellidos'];?>" > 
+	                                                    </div> 
+	                                                    <div class="form-group col-md-4">
+	                                                        <span for="cargoAutoriza">CARGO:</span>
+	                                                        <input type="text"  class="form-control" rows="5" name="cargoAutoriza" id="cargoAutoriza" value="<?php echo $_SESSION['usuario']['cargo']; ?>"> 
+	                                                    </div> 
+	                                                    <div class="form-group col-md-4">
+	                                                        <span for="telefonoAutoriza">TELEFONO:</span>
+	                                                        <input type="text"  class="form-control" rows="5" name="telefonoAutoriza" id="telefonoAutoriza"  value="<?php echo $_SESSION['usuario']['numerocomunicacionusuario'];?>"> 
+	                                                    </div> 
+	                                                    
+	                                                </div>
+	                                            </center>
+	                                        </div>
+	                                    </div>
+	                                </div>
+	                            </div>
+	                        </div>
+	                        
+	                       
+	                         
+	                    
+	                       
+	                    </div>
+	                    <div class="row text-center">
+	                        
+	                        <div class="col-md-12">
+	                            <a  >
+	                                <button type="button" onclick="Javascript:registrarStock();" href="#datosBasicos" class="btn btn-success btn-block" style="background-color: #41B314;  height: 50px;" >Registrar Stock</button>
+	                            </a>
+	                        </div>
+	                    </div>
+	                  </div>
+									</div>
 								</div>
 
 								 
 							</div>
 							<div class="panel-footer">
-								<div class="row">
-									<div class="col-xs-6">
-										<h4 class="no-margin"></h4>
-									</div><!-- /.col -->
-									<div class="col-xs-6 text-right">
-										<a type="button" class="btn btn-success  " id="RegistroP" >Registrar Paciente</a>
-									</div><!-- /.col -->
-								</div><!-- /.row -->
+							 
 							</div>
 						</div><!-- /panel -->
 								
@@ -176,7 +460,7 @@
 
 	 
 	<!-- Perfect -->
-	<script src="../../../js/app/app_libroPacientes.js"></script>
+	<script src="../../../js/app/app_farmacia.js"></script>
 	<script src="../../../js/app/app.js"></script>
 	<script>
 		

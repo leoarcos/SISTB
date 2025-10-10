@@ -98,7 +98,31 @@
 							<div class="panel-body">
 								
 								<div class="row">
-									
+									<div class="col-md-12">
+										<center><h3 class="panel-title text-success "><strong>Listado Medicamentos</strong></h3></center>
+                    <table class="table table-hover display" id="tableMedicamVencidos" style="max-height: 600px;">
+                        <thead>
+                            <tr>
+                                <th>Acción</th>
+                                <th>Nombre</th>
+                                <th>Presentación</th>
+                                <th>Concentración</th>
+                                <th>Cantidad</th>
+                                <th>Lote</th>
+                                <th>Fecha Entrega</th>
+                                <th>Fecha Vencimiento</th>
+                                <th>Observaciones</th>
+                                <th>Remitente</th>
+                                <th>Donado</th>
+                                <th>Laboratorio</th>  
+                            </tr>
+                        </thead>
+                        <tbody id="TablaListadoMedicamentosVencidos">
+                        
+                        
+                        </tbody>
+                    </table>s
+									</div>
 								</div>
 
 								 

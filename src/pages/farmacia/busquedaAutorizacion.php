@@ -2,18 +2,11 @@
 <html lang="es">
   <head>
     <meta charset="utf-8">
-    <title>GIMMIDS</title>
+    <title>SISTB - Farmacia</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-	<script>
-		console.log("Bienvenido a GIMMIDS");
-			if (typeof module === 'object') {
-				window.module = module; 
-				module = undefined;
-			}
-
-	</script>
+	 
 
     <!-- Bootstrap core CSS -->
     <link href="../../../bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -85,7 +78,7 @@
 		<div id="main-container">
 			<div id="breadcrumb">
 				<ul class="breadcrumb">
-					 <li><i class="fa fa-dashboard"></i><a href="index.html"> Registrar Paciente</a></li> 
+					 <li><i class="fa fa-dashboard"></i><a href="index.html"> Listar Autorizaciones</a></li> 
 				</ul>
 			</div><!-- /breadcrumb-->
 		 
@@ -98,20 +91,39 @@
 							<div class="panel-body">
 								
 								<div class="row">
-									
+									<div class="col-md-12">
+										<center><h3 class="panel-title text-success "><strong>Listado Autorizaciones</strong></h3></center>
+                    <table class="table table-hover display" id="tableAutori" style="max-height: 600px;">
+                        <thead>
+                            <tr>
+                                <th>Acción</th>
+                                <th>#</th>
+                                <th>Año</th>
+                                <th>Trimestre</th>
+                                <th># Registro</th>
+                                <th>Fecha Solicitud</th>
+                                <th>Municipio</th>
+                                <th>Tipo Id</th>
+                                <th># Id</th>
+                                <th>Nombres</th>
+                                <th>Sexo</th>
+                                <th>Edad</th>
+                                <th>U.Medida</th>
+                                <th>Eps</th>
+                            </tr>
+                        </thead>
+                        <tbody id="TablaListadoAutorizaciones">
+                        
+                        
+                        </tbody>
+                    </table>
+									</div>
 								</div>
 
 								 
 							</div>
 							<div class="panel-footer">
-								<div class="row">
-									<div class="col-xs-6">
-										<h4 class="no-margin"></h4>
-									</div><!-- /.col -->
-									<div class="col-xs-6 text-right">
-										<a type="button" class="btn btn-success  " id="RegistroP" >Registrar Paciente</a>
-									</div><!-- /.col -->
-								</div><!-- /.row -->
+								 
 							</div>
 						</div><!-- /panel -->
 								
@@ -176,7 +188,7 @@
 
 	 
 	<!-- Perfect -->
-	<script src="../../../js/app/app_libroPacientes.js"></script>
+	<script src="../../../js/app/app_farmacia.js"></script>
 	<script src="../../../js/app/app.js"></script>
 	<script>
 		

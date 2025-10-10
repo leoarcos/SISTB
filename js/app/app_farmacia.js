@@ -2,6 +2,16 @@ let dptos=[], paises=[], mnpos=[];
 
 
 $(function	()	{
+	$("#menuHome").removeClass('active');
+	$("#menuLibro").removeClass('active');
+	$("#menuSintomaticos").removeClass('active');
+	$("#menuResistentes").removeClass('active');
+	$("#menuQuimioprofilaxis").removeClass('active');
+	$("#menuInformes").removeClass('active');
+	$("#menuAdmin").removeClass('active'); 
+
+	$("#menuFarmacia").addClass('active');
+	fetchData(); 
 	fetchData(); 
 });
 
