@@ -1,4 +1,7 @@
+<?php
 
+    session_start();
+?>
 <style>
 	.arrow-icon {
 		margin-left: auto; /* Alinear la flecha a la derecha */
@@ -58,9 +61,9 @@
 				</div><!-- /size-toggle -->	
 				<div class="user-block clearfix">
 					 <div class="detail">
-						<strong class="nombre-Usuario">Nombre Usuario</strong>
+						<strong class="nombre-Usuario"><?php echo $_SESSION['usuario'][0]['nombres'].' '.$_SESSION['usuario'][0]['apellidos']; ?></strong>
 						<ul class="list-inline">
-							<li><a href="../profile.html">Perfil</a></li>
+							<li><span><?php echo $_SESSION['usuario'][0]['cargo'].' - '.$_SESSION['usuario'][0]['mnpo']; ?></span></li>
 							 
 						</ul>
 					</div>
@@ -94,9 +97,7 @@
 							</a>
 							<ul class="submenu">
 								<li><a href="../redir.php?rut=registrarPaciente">Registrar</a></li>
-								<li><a href="../redir.php?rut=IDeditPaciente">Identificación</a></li>
 								<li><a href="../redir.php?rut=libroPacientes">Listar</a></li>
-								<li><a href="../redir.php?rut=consultaMultiple">Consulta Multiple</a></li>
 								<li><a href="../redir.php?rut=circular007">Consulta Libro de Pacientes Circular 007</a></li>
 							</ul>
 						</li>

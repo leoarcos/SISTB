@@ -1,3 +1,14 @@
+<?php
+ 	session_start();
+ 
+    if(!isset($_SESSION['usuario'])){
+        header('Location: ../ ');
+       
+        
+    }else{
+		echo "<script>console.log('session iniciada');</script>";
+    }
+?>
 <!DOCTYPE html>
 <html lang="es">
   <head>
@@ -117,7 +128,7 @@
 					<div class="col-sm-6 col-md-3">
 						<div class="panel-stat3 bg-info">
 							<h2 class="m-top-none"><span id="serverloadCount">15</span></h2>
-							<h5>Sintomaticos respiratorios</h5>
+							<h6>Sintomaticos respiratorios</h6>
 							
 							<div class="stat-icon">
 								<i class="fa fa-fire fa-3x"></i>
@@ -131,7 +142,7 @@
 					<div class="col-sm-6 col-md-3">
 						<div class="panel-stat3 bg-info">
 							<h2 class="m-top-none" id="orderCount">593</h2>
-							<h5>Quimiprofilaxis</h5>
+							<h6>Quimiprofilaxis</h6>
 							<div class="stat-icon">
 								<i class="fa fa-flask fa-3x"></i>
 							</div>
@@ -143,7 +154,7 @@
 					<div class="col-sm-6 col-md-3">
 						<div class="panel-stat3 bg-info">
 							<h2 class="m-top-none" id="orderCount">593</h2>
-							<h5>Resistentes a farmacos</h5>
+							<h6>Resistentes a farmacos</h6>
 							<div class="stat-icon">
 								<i class="fa fa-plus-circle fa-3x"></i>
 							</div>
@@ -2163,17 +2174,7 @@
 
 	<a href="../" id="scroll-to-top" class="hidden-print"><i class="fa fa-chevron-up"></i></a>
 	
-	<!-- Logout confirmation -->
-	<div class="custom-popup width-100" id="logoutConfirm">
-		<div class="padding-md">
-			<h4 class="m-top-none">Seguro de cerrar sesión?</h4>
-		</div>
-
-		<div class="text-center">
-			<a class="btn btn-success m-right-sm" href="#" onclick="Javascript:localStorage.removeItem('user'); window.location.href='../index.html'">Cerrar sesión</a>
-			<a class="btn btn-danger logoutConfirm_close">Cancelar</a>
-		</div>
-	</div>
+	
 	
     <!-- Le javascript
     ================================================== -->

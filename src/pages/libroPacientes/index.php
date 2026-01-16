@@ -2,7 +2,7 @@
 <html lang="es">
   <head>
     <meta charset="utf-8">
-    <title>GIMMIDS</title>
+    <title>SISTB</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -36,9 +36,16 @@
 	
 	<!-- Datatable -->
 	<link href="../../../css/jquery.dataTables_themeroller.css" rel="stylesheet">
-	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 	<style>
 		#div2 { overflow-y: scroll; margin-bottom: 12px;}
+		table td {
+			white-space: nowrap; /* Evita que el texto salte de línea */
+			max-width: 300px;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			padding: 5px 10px !important;
+		} 
 	</style>
   </head>
 
@@ -99,50 +106,29 @@
 								
 								<div class="row">
 									<div class="col-md-12 ">
-                    <a href="../../../servicios/generarExcelLibroPacientes.php">
-	                    <button type="button" class="btn btn-success btn-block" style="background-color: #41B314;  height: 50px;">Generar Listado en Excel</button>
-	                  </a>
-	                </div>
-	                <div class="col-md-12">
-	                	<table class="table table-hover display " id="tableL" style="max-height: 600px;">
-		                  <thead>
-		                    <tr>
-		                      <th>Acción  </th>
-		                      <th>#</th>
-		                      <th>Fecha</th>
-		                      <th>Trimestre</th>
-		                      <th>Nombres</th>
-		                      <th>Identificacion</th>
-		                      <th>Etnia</th>
-		                      <th>Municipio</th>
-		                      <th class="hide">Dirección</th>
-		                      <th class="hide">Régimen</th>
-		                      <th>EPS/ARS</th>
-		                      <th>Sexo</th>
-		                      <th>Edad</th>
-		                      <th>Tipo TB</th>
-		                    </tr>
-		                  </thead>
-		                  <tbody id="TablaLibroP">
-		                    
-		                    
-		                  </tbody>
-		                </table>
-	                </div>
+									<a onclick="exportarExcel()">
+										<button type="button" class="btn btn-success btn-block" style="background-color: #41B314;  height: 50px;">Generar Listado en Excel</button>
+									</a>
+									</div>
+									<div class="col-md-12">
+										<div class="mb-3">
+											<label for="buscarPaciente" class="form-label">🔍 Buscar paciente:</label>
+											<input type="text" id="buscarPaciente" class="form-control" placeholder="Escribe cualquier dato (Nombre, ID, Año, etc...)" onkeyup="filtrarTabla()">
+										</div>	
+										<div class="table-responsive" style="max-height: 500px; overflow: auto;">
+											<table class="table table-bordered table-sm table-hover">
+												<thead id="tabla-cabecera" class="table-dark" style="position: sticky; top: 0;">
+													</thead>
+												<tbody id="tabla-cuerpo">
+													</tbody>
+											</table>
+										</div>
+										
+									</div>
 								</div>
 
 								 
-							</div>
-							<div class="panel-footer">
-								<div class="row">
-									<div class="col-xs-6">
-										<h4 class="no-margin"></h4>
-									</div><!-- /.col -->
-									<div class="col-xs-6 text-right">
-										<a type="button" class="btn btn-success  " id="RegistroP" >Registrar Paciente</a>
-									</div><!-- /.col -->
-								</div><!-- /.row -->
-							</div>
+							</div> 
 						</div><!-- /panel -->
 								
 					</div>
@@ -209,7 +195,6 @@
 	<script src="../../../js/app/app_libroPacientes.js"></script>
 	<script src="../../../js/app/app.js"></script>
 	<script>
-		
 	</script>
 	
   </body>

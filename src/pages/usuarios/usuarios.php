@@ -1,3 +1,14 @@
+<?php
+ 	session_start();
+ 
+    if(!isset($_SESSION['usuario'])){
+        header('Location: ../../');
+       
+        
+    }else{
+		echo "<script>console.log('session iniciada');</script>";
+    }
+?>
 <!DOCTYPE html>
 <html lang="es">
   <head>
@@ -98,7 +109,172 @@
 							<div class="panel-body">
 								
 								<div class="row">
-									
+									<div class="col-md-12">
+										<h3 class="panel-title text-success text-center">
+											<strong>USUARIOS</strong>
+											 
+										</h3> 
+									</div>
+									<div class="col-md-12">
+										<ul class="nav nav-tabs">
+											<li class="active"><a data-toggle="tab" href="#registrarUsuario">Registrar usuario </a></li>
+											
+										</ul>
+
+										<div class="tab-content">
+											<hr>
+											<div id="registrarUsuario" class="tab-pane fade in active">
+												<div class="row">
+													<div class=" col-md-5 ">
+														<form action="Javascript: registrarUsuario();"> 
+															<div class="row">
+																<div class="form-group col-md-6">
+																	<label for="nonbres" >Nombre: </label>  
+																	<input type="text" id="nonbres" class="form-control " required aria-describedby="numero">
+																		
+																</div> 
+																<div class="form-group col-md-6">
+																	<label for="apellidos" >Apellidos: </label>  
+																	<input type="text" id="apellidos" class="form-control " required aria-describedby="numero">
+																		
+																</div> 
+																<div class="form-group col-md-12">
+																	<label for="id" >Identificación: </label>  
+																	<input type="text"  id="id" class="form-control " required aria-describedby="numero">
+																		
+																</div> 
+																<div class="form-group col-md-4">
+																	<label for="sexo" >Sexo: </label>  
+																	<select id="sexo" class="form-control " aria-describedby="numero" required>
+																		<option></option>
+																		<option value="FEMENINO">FEMENINO</option>
+																		<option value="MASCULINO">MASCULINO</option>
+																	</select>
+																</div> 
+																<div class="form-group col-md-4">
+																	<label for="fechanaci">Fecha de Nacimiento</label>
+																	
+																	<input type="date" onchange="calcularEdad()" id="fechanaci" required class="form-control " aria-describedby="numero">
+																	
+																</div> 
+															
+																<div class="form-group col-md-4">
+																	<label for="edad" >Edad: </label>  
+																	<input type="text" readonly id="edad" class="form-control " required aria-describedby="numero">
+																	
+																</div> 
+																<div class="form-group col-md-6">
+																	<label for="cargo" >Cargo: </label>  
+																	<input type="text"  id="cargo" class="form-control " required aria-describedby="numero">
+																	
+																</div> 
+																<div class="form-group col-md-6">
+																	<label for="mnpo" >Municipio: </label>  
+																	<select id="mnpo" class="form-control " aria-describedby="mnpo" required>
+																		<option></option>
+																	</select>
+																</div> 
+																<div class="form-group col-md-6">
+																	<label for="numcontacto" >Número de contacto: </label> 
+																	
+																	<input type="number" id="numcontacto" class="form-control " aria-describedby="numero" required>
+																	
+																</div> 
+																<div class="form-group col-md-6">
+																	<label for="rol" >Rol: </label> 
+																	
+																	<select id="rol" class="form-control " aria-describedby="rol" required>
+																		<option></option>
+																		<option value="DEPARTAMENTAL">DEPARTAMENTAL</option>
+																		<option value="MUNICIPAL">MUNICIPAL</option>
+																	</select>
+																	
+																</div> 
+																<div class="form-group col-md-6">
+																	<label for="email" >Correo electronico: </label>
+																	
+																	<input type="email" id="email" class="form-control " aria-describedby="numero" required>
+																	
+																</div> 
+																<div class="form-group col-md-6">
+																	<label for="pass" >Contraseña: </label> 
+																	
+																	<input type="text" class="form-control " aria-describedby="pass" id="pass" required>
+																	
+																</div>
+																<div class="form-group col-md-12">
+																	
+																	
+																	<input type="submit" class="btn btn-success btn-block" value="Registrar">
+																	
+																</div>
+															</div>
+														</form>
+													</div>
+													 <div class="col-md-7">
+														<table class="table table-responsive" id="tablaUsuarios">
+															<thead>
+																<th>Nombres y Apellidos</th>
+																<th>Identificacion</th>
+																<th>Edad</th>
+																<th>Sexo</th>
+																<th>Cargo</th>
+																<th>Municipio</th>
+																<th><i class="lnr lnr-eye"></i></th>
+															</thead>
+															<tbody id="contUsuarios">
+
+															</tbody>
+														</table>                                                
+													</div>
+												</div>
+												
+
+
+
+
+
+												
+											</div>
+											<div id="listarUsuarios" class="tab-pane fade ">
+												<div class="row">
+													<div class="col-12">
+														<table class="table table-responsive" id="tablaUsuarios">
+															<thead>
+																<th>Nombres y Apellidos</th>
+																<th>Identificacion</th>
+																<th>Edad</th>
+																<th>Sexo</th>
+																<th>Cargo</th>
+																<th>Municipio</th>
+																<th>Acción</th>
+															</thead>
+															<tbody id="contUsuarios">
+
+															</tbody>
+														</table>                                                
+													</div>
+												</div>
+												
+
+
+											</div>
+											<div id="datosUsuarios" class="tab-pane fade ">
+											
+												
+												<div class="row">
+													<div class="col-12">
+																							
+													</div>
+												</div>
+
+											</div>
+
+
+
+										</div>
+										
+									</div>
 								</div>
 
 								 
@@ -108,9 +284,7 @@
 									<div class="col-xs-6">
 										<h4 class="no-margin"></h4>
 									</div><!-- /.col -->
-									<div class="col-xs-6 text-right">
-										<a type="button" class="btn btn-success  " id="RegistroP" >Registrar Paciente</a>
-									</div><!-- /.col -->
+									 
 								</div><!-- /.row -->
 							</div>
 						</div><!-- /panel -->
@@ -122,6 +296,103 @@
 		</div><!-- /main-container -->
 		<!-- Footer
 		================================================== -->
+		
+		<!--Modal-->
+		<div class="modal fade" id="simpleModal">
+  			<div class="modal-dialog">
+    			<div class="modal-content">
+      				<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4>Editar Usuario</h4>
+      				</div>
+				    <div class="modal-body">
+				        <form action="Javascript: editarUsuario();"> 
+							<div class="row">
+								<div class="form-group col-md-6">
+									<label for="Enonbres" >Nombre: </label>  
+									<input type="text" id="Enonbres" class="form-control " required aria-describedby="numero">
+										
+								</div> 
+								<div class="form-group col-md-6">
+									<label for="Eapellidos" >Apellidos: </label>  
+									<input type="text" id="Eapellidos" class="form-control " required aria-describedby="numero">
+										
+								</div> 
+								<div class="form-group col-md-12">
+									<label for="Eid" >Identificación: </label>  
+									<input type="text"  id="Eid" class="form-control " required aria-describedby="numero">
+										
+								</div> 
+								<div class="form-group col-md-6">
+									<label for="Esexo" >Sexo: </label>  
+									<select id="Esexo" class="form-control " aria-describedby="numero" required>
+										<option></option>
+										<option value="FEMENINO">FEMENINO</option>
+										<option value="MASCULINO">MASCULINO</option>
+									</select>
+								</div> 
+								<div class="form-group col-md-6">
+									<label for="Efechanaci">Fecha de Nacimiento</label>
+									
+									<input type="date"   id="Efechanaci" required class="form-control " aria-describedby="numero">
+									
+								</div> 
+							 
+								<div class="form-group col-md-6">
+									<label for="Ecargo" >Cargo: </label>  
+									<input type="text"  id="Ecargo" class="form-control " required aria-describedby="numero">
+									
+								</div> 
+								<div class="form-group col-md-6">
+									<label for="Emnpo" >Municipio: </label>  
+									<select id="Emnpo" class="form-control " aria-describedby="mnpo" required>
+										<option></option>
+									</select>
+								</div> 
+								<div class="form-group col-md-6">
+									<label for="Enumcontacto" >Número de contacto: </label> 
+									
+									<input type="number" id="Enumcontacto" class="form-control " aria-describedby="numero" required>
+									
+								</div> 
+								<div class="form-group col-md-6">
+									<label for="Erol" >Rol: </label> 
+									
+									<select id="Erol" class="form-control " aria-describedby="rol" required>
+										<option></option>
+										<option value="DEPARTAMENTAL">DEPARTAMENTAL</option>
+										<option value="MUNICIPAL">MUNICIPAL</option>
+									</select>
+									
+								</div> 
+								<div class="form-group col-md-6">
+									<label for="Eemail" >Correo electronico: </label>
+									
+									<input type="email" id="Eemail" class="form-control " aria-describedby="numero" required>
+									
+								</div> 
+								<div class="form-group col-md-6">
+									<label for="Epass" >Contraseña: </label> 
+									
+									<input type="text" class="form-control " aria-describedby="pass" id="Epass" required>
+									
+								</div>
+								<div class="form-group col-md-12">
+									
+									
+									<input type="submit" class="btn btn-success btn-block" value="Editar">
+									
+								</div>
+							</div>
+						</form>
+				    </div>
+				    <div class="modal-footer">
+				        <button class="btn btn-sm btn-success" data-dismiss="modal" aria-hidden="true">Close</button>
+						<a href="#" class="btn btn-danger btn-sm">Save changes</a>
+				    </div>
+			  	</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
 		
 		<?php 
 			
@@ -176,7 +447,7 @@
 
 	 
 	<!-- Perfect -->
-	<script src="../../../js/app/app_libroPacientes.js"></script>
+	<script src="../../../js/app/app_administracion.js"></script>
 	<script src="../../../js/app/app.js"></script>
 	<script>
 		

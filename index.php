@@ -64,7 +64,8 @@
  
 				</div>
 				<div class="panel-body">
-					<form class="form-login" action="API/servicios/logIn.php" method="POST">
+					<!--API/servicios/logIn.php-->
+					<form class="form-login" action="Javascript: logIn();" method="POST">
 						<div class="form-group">
 							<label>Usuario</label>
 							<input type="text" placeholder="Usuario" id="user" name="user" class="form-control input-sm bounceIn animation-delay2" required>
@@ -118,39 +119,94 @@
 	<!-- Perfect -->
 	<script src="js/app/app.js"></script>
 	<script> 
+		let env;
+		$(function	()	{
+			fetchData(); 
+		});
 		$("#pass").on('keyup', function (e) {
 			if (e.key === 'Enter' || e.keyCode === 13) {
 				// Do something
 				logIn();
 			}
 		});
+		async function fetchData(){
+			//enviroments
+			try {
+				const response = await fetch('src/json/enviroments.json'); // Reemplaza con la ruta a tu archivo JSON
+				
+				if (!response.ok) {
+				throw new Error('Error al cargar el archivo JSON'); // Manejo de errores si la respuesta no es ok
+				}
+
+				env = await response.json(); // Convierte la respuesta a JSON
+				console.log(env); // Aquí puedes trabajar con los datos JSON
+			} catch (error) {
+				console.error('Error DPTOS:', error); // Manejo de errores
+			}
+
+		}
+
 		 
 		async function logIn(){ 
 			console.log('login');
-			const datos = {
-		    user: document.getElementById('user'),
-		    pass: document.getElementById('pass')
-		  };
-			const url = 'http://186.31.31.123/sistbweb/servicios/logIn.php'; 
-		  try {
-		    const respuesta = await fetch(url, {
-		      method: 'POST',
-		      headers: {
-		        'Content-Type': 'application/json' // Indica que estás enviando JSON
-		      },
-		      body: JSON.stringify(datos)
-		    });
+		 
+			console.log(window.location.pathname);
+			//window.location.href=window.location.pathname+'src/index.php';
+			data={
+				email: document.getElementById('user').value,
+				password: document.getElementById('pass').value
+			}
+			let dataSend={ key: env.key, data };
+			console.log(dataSend);
+			try {
+				const respuesta = await fetch(env.url_api+'servicios/logIn.php', {
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/json' // Indica que estás enviando JSON
+				},
+				body: JSON.stringify(dataSend)
+				});
 
-		    if (!respuesta.ok) {
-		      throw new Error(`Error HTTP: ${respuesta.status}`);
-		    }
+				if (!respuesta.ok) {
+				throw new Error(`Error HTTP: ${respuesta.status}`);
+				}
 
-		    const resultado = await respuesta.json(); // Si el servidor responde con JSON
-		    console.log('Respuesta del servidor:', resultado);
+				const resultado = await respuesta.json(); // Si el servidor responde con JSON
+				console.log('Respuesta del servidor:', resultado);
+				if(resultado.STATUS=='OK' ){
+					if(resultado.DATA){
+						alert('usuario loggeado!..'); 
+						//ALMACENAR EN $_SESSION php
+						 // Enviar los datos al servidor para guardarlos en sesión
+						try {
+							await fetch(env.url_api + 'servicios/guardarSession.php', {
+								method: 'POST',
+								headers: { 'Content-Type': 'application/json' },
+								body: JSON.stringify({ data: resultado.DATA }),
+								credentials: 'include' // 🔸 MUY IMPORTANTE para enviar cookies de sesión
+							});
+							ee={token: resultado.TOKEN, data: resultado.DATA[0]};
+							console.log(ee);
+							localStorage.setItem('user', JSON.stringify(ee));
+							window.location.href='src/';
+						 
+						 } catch (error) {
+							alert('Error en la petición AL GURADAR USUARIO:', error);
+							
+						 }
+						
+					}else{
 
-		  } catch (error) {
-		    console.error('Error en la petición:', error);
-		  }
+						alert('usuario y/o contraseña erroneo(s)!..'); 
+					}
+
+				}else{
+					alert('Error al loggear el usuario!..')
+				}
+
+			} catch (error) {
+				alert('Error en la petición:', error);
+			}
 		}
 	</script>
   </body>

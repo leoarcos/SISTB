@@ -92,49 +92,30 @@
 								
 								<div class="row">
 									<div class="col-md-12 ">
-                    <a id="Excel007">
-                      <button type="button" id="botonsintomaticoRes" class="btn btn-success btn-block" style="background-color: #41B314;  height: 50px;">Generar Listado en Excel</button>
-                    </a>
-                  </div>
-                  <div class="col-md-12">
-                  	<br>
-	                  <table class="table table-hover display table-responsive" id="tableSintomaticos" style="max-height: 600px;">
-	                    <thead>
-	                      <tr>
-	                        <th>Acción  </th>
-	                        <th>#</th>
-	                        <th>Fecha</th>
-	                        <th>Nombres</th>
-	                         <th>Identificacion</th>
-	                        <th>Etnia</th>
-	                        <th>Municipio</th>
-	                       <th>EPS/ARS</th>
-	                         <th>Sexo</th>
-	                        <th>Edad</th>
-	                        
-	                      </tr>
-	                    </thead>
-	                    <tbody id="tableSintomaticosContenido">
-	                      
-	                      
-	                    </tbody>
-	                  </table>
-                  	
-                  </div>
+									<a onclick="exportarExcel()">
+										<button type="button" class="btn btn-success btn-block" style="background-color: #41B314;  height: 50px;">Generar Listado en Excel</button>
+									</a>
+									</div>
+									<div class="col-md-12">
+										<div class="mb-3">
+											<label for="buscarPaciente" class="form-label">🔍 Buscar paciente:</label>
+											<input type="text" id="buscarPaciente" class="form-control" placeholder="Escribe cualquier dato (Nombre, ID, Año, etc...)" onkeyup="filtrarTabla()">
+										</div>	
+										<div class="table-responsive" style="max-height: 500px; overflow: auto;">
+											<table class="table table-bordered table-sm table-hover">
+												<thead id="tabla-cabecera" class="table-dark" style="position: sticky; top: 0;">
+													</thead>
+												<tbody id="tabla-cuerpo">
+													</tbody>
+											</table>
+										</div>
+										
+									</div>
 								</div>
 
 								 
 							</div>
-							<div class="panel-footer">
-								<div class="row">
-									<div class="col-xs-6">
-										<h4 class="no-margin"></h4>
-									</div><!-- /.col -->
-									<div class="col-xs-6 text-right">
-										<a type="button" class="btn btn-success  " id="RegistroP" >Registrar Paciente</a>
-									</div><!-- /.col -->
-								</div><!-- /.row -->
-							</div>
+							 
 						</div><!-- /panel -->
 								
 					</div>
